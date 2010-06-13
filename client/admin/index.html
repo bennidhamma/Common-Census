@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <script type="text/javascript" src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/jquery-ui-1.8.1.custom.min.js"></script>
+        <script type="text/javascript" src="../js/json2.js"></script>
+        <script type="text/javascript" src="../js/jquery.rest.js"></script>
+        <script type="text/javascript" src="../js/jquery.jtml.js"></script>
+        <script type="text/javascript" src="controller.js"></script>
+        <link type="text/css" href="../css/ui-lightness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />	
+        <link type='text/css' href='../css/styles.css' rel='stylesheet' >
+        <link type="text/css" href="styles.css" rel="stylesheet">
+        
+        <title>
+			Common Census Administration
+        </title>
+    </head>
+    <body>
+       <div id="tabs">
+			<ul>
+				<li><a href="#users">Users</a></li>
+				<li><a href="#roles">Roles</a></li>
+				<li><a href="#permissions">Permissions</a></li>
+			</ul>
+			<div id="users">
+				<div id="headers">
+					<span class='id'>ID</span>
+					<span class='name'>Name</span>
+					<span class='password'>Password</span>
+				</div>
+				<div id="list" style="display:none">
+					<script class='item-template' type='text/html'>
+						<div>
+							<span class='id'>${id}</span>
+							<input class='name' value='${name}'>
+							<input class='password' type='password'>
+							<button class='edit-roles'>Roles...</button>
+							<button class="update">Update</button>
+							<button class="delete">Delete</button>
+							<div class="user-roles sublist" style="display:none">
+							
+							</div>
+						</div>
+					</script>
+				</div>
+				<div id="new">
+					<span class='id'>&nbsp;</span>
+					<input class="name">
+					<input class='password' type='password'>
+					<button class='edit-roles'>Roles...</button>
+					<button class="create">Add New User</button>
+					<div class="user-roles sublist" style="display:none">
+							
+					</div>
+				</div>
+			</div>
+			<div id="roles">
+				<div id="list" style="display:none">
+					<script class='item-template' type='text/html'>
+						<div>
+								<span class='id'>${id}</span>
+								<input class='name' value='${name}'>
+								<button class="edit-permissions">Permissions...</button>
+								<button class="update">Update</button>
+								<button class="delete">Delete</button>
+								<div class="role-permissions sublist" style="display:none">
+							
+								</div>
+						</div>
+					</script>
+				</div>
+				<div id="new">
+					<span class='id'>&nbsp;</span>
+					<input class="name">
+					<button class="edit-permissions">Permissions...</button>
+					<button class="create">Add New Role</button>
+					<div class="role-permissions sublist" style="display:none">
+							
+					</div>
+				</div>
+			</div>
+			<div id="permissions">
+				<div id="list" style="display:none">
+					<script class='item-template' type='text/html'>
+						<div>
+							<span class='id'>${id}</span>
+							<input class='name' value='${name}'>
+							<button class="update">Update</button>
+							<button class="delete">Delete</button>
+						</div>
+					</script>
+				</div>
+				<div id="new">
+					<input class="name">
+					<button class="create">Add New Permission</button>
+				</div>
+			</div>
+		</div>
+
+
+        <script>
+			$(function(){
+				constructAdmin();
+			});
+        </script>
+        
+        
+    </body>
+</html>

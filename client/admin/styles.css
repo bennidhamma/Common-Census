@@ -1,0 +1,34 @@
+#list > div {
+	padding:0.5em;
+}
+
+#headers span {
+	font-weight:bold;
+	display:inline-block;
+	padding-left:0.25em;
+}
+
+#list > div:nth-child(odd) {
+	background:#ddd;
+}
+
+span.id {
+	width:1em;
+	display:inline-block;
+}
+
+span.name
+{
+	display:inline-block;
+}
+
+.sublist {
+	margin:0.5em 0.5em 0.5em 1em;
+}
+
+#new {
+	padding:0.5em;
+	border-top:1px solid #aaa;
+}
+
+.name, .password { width:10em; }

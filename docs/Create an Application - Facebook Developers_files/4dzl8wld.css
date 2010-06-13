@@ -1,0 +1,142 @@
+/*
+HTTP Host: static.ak.fbcdn.net
+Generated: May 4th 2010 5:34:02 PM PDT
+Machine: 10.16.139.103
+Locale: nu_ll
+Path: css/devsite/alite.css
+*/
+
+.devsitePage{font-family:"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;font-size:11px;color:#333;margin:0;min-width:1024px;font-size:11px}
+.devsitePage a{color:#3b5998;text-decoration:none}
+.devsitePage a:hover{text-decoration:underline}
+.devsitePage img{border:0}
+.devsitePage table{border:0;margin:0;border-collapse:collapse;border-spacing:0}
+.devsitePage table td,
+.devsitePage table th{border:0;padding:0;text-align:left;vertical-align:top}
+.devsitePage table th{font-weight:bold}
+.devsitePage h1,
+.devsitePage h2,
+.devsitePage h3,
+.devsitePage h4{margin:0;padding:0;border:0}
+.devsitePage .menu{background:#3b5998;font-weight:bold;padding-top:8px}
+.devsitePage .menu,
+.devsitePage .menu a{color:#fff}
+.devsitePage .menu a.logo{padding-top:4px;margin-right:25px;line-height:0}
+.devsitePage .menu a.logo img{width:166px;height:17px}
+.devsitePage .menu a.logo,
+.devsitePage .menu a.l{display:block;float:left}
+.devsitePage .menu a.l{line-height:29px;padding-left:11px;padding-right:11px}
+.devsitePage .menu a.l:hover{background-color:#5c75aa;text-decoration:none}
+.devsitePage .menu .search{float:right;padding-top:3px}
+.devsitePage .clear{clear:both}
+.devsitePage .header{background:#f3f3f3;padding-top:20px;padding-bottom:95px;border-bottom:1px solid #d2d2d2}
+.devsitePage .header h1{margin:0;font-size:28px;font-weight:normal}
+.devsitePage .header h1 a{color:#333;text-decoration:none}
+.devsitePage .header .breadcrumbs{margin-top:4px}
+.devsitePage .content{max-width:900px;margin:auto}
+.devsitePage .washbody{margin-top:-75px}
+.devsitePage .body .content{border:1px solid #eaeaea;background:white;padding:25px}
+.devsitePage .header,
+.devsitePage .body,
+.devsitePage .body p,
+.devsitePage .body ul,
+.devsitePage .body ol,
+.devsitePage .body li,
+.devsitePage .body th,
+.devsitePage .body th,
+.devsitePage .body td{font-size:13px}
+.devsitePage .body pre,
+.devsitePage .body p,
+.devsitePage .body li,
+.devsitePage .body dt,
+.devsitePage .body dd,
+.devsitePage .refindex .page,
+.devsitePage .body textarea,
+.devsitePage .body td{line-height:18px}
+.devsitePage .body ol,
+.devsitePage .body ul{list-style-type:disc;padding-left:3em}
+.devsitePage .body ol{list-style-type:decimal}
+.devsitePage .body strong{font-weight:bold}
+.devsitePage .body em,
+.devsitePage .body i{font-style:italic}
+.devsitePage .body h1{font-size:28px;font-weight:normal;margin:0;margin-bottom:8px}
+.devsitePage .body h2{font-size:16px;margin-bottom:8px;margin-top:25px}
+.devsitePage .body h3{font-size:13px;margin-top:0;margin-bottom:2px}
+.devsitePage dl,
+.devsitePage dt,
+.devsitePage dd{margin:0}
+.devsitePage .body dl,
+.devsitePage .body table,
+.devsitePage .body pre,
+.devsitePage .body ul,
+.devsitePage .body ol,
+.devsitePage .body p{margin:0;margin-bottom:1em}
+.devsitePage dd,
+.devsitePage .refindex .page{margin-bottom:10px}
+.devsitePage dd p,
+.devsitePage .refindex .page .snippet p{margin:0}
+.devsitePage dt,
+.devsitePage .refindex .page .title{font-weight:bold}
+.devsitePage dt a.private,
+.devsitePage .refindex .page .title a.private{background:url(/rsrc.php/z1YVZ/hash/2s0onelb.png) no-repeat left center;padding-left:13px}
+.devsitePage .refindex .page .thumbnail{float:left}
+.devsitePage .refindex .page .thumbnail img{width:100px;height:75px;border:1px solid #d3dae5}
+.devsitePage .refindex .page.withthumbnail .title,
+.devsitePage .refindex .page.withthumbnail .snippet{margin-left:113px}
+.devsitePage .body pre,
+.devsitePage .body code,
+.devsitePage .body table.params td.name{font-family:monospace;color:#006000;font-size:13px}
+.devsitePage .body pre,
+.devsitePage .body .pre{background:#f2f2f2;border:1px solid #d8dfea;border-left-width:3px;margin:18px;padding-top:7px;padding-bottom:7px;padding-left:10px;overflow:auto}
+.devsitePage .footer{color:#777;margin-bottom:25px}
+.devsitePage .footer .content{max-width:925px;padding:10px}
+.devsitePage .footer .copyright{float:left}
+.devsitePage .footer .links{text-align:right}
+.devsitePage .footer .links a{margin-left:15px}
+.devsitePage .header .admin{float:right;font-size:11px;z-index:1;position:relative}
+.devsitePage .header .admin a{margin-left:12px}
+.devsitePage .header .admin a.gatekeeper{background:url(/rsrc.php/z1YVZ/hash/2s0onelb.png) no-repeat left center;padding-left:12px;font-weight:bold}
+.devsitePage .body table{margin-bottom:1em}
+.devsitePage .body table td,
+.devsitePage .body table th{text-align:left;border:1px solid #d2d2d2;padding:6px;padding-top:4px;padding-bottom:4px;padding-right:10px;vertical-align:top}
+.devsitePage .body table.uiGrid td{border:0;vertical-align:middle}
+.devsitePage .body.documentation .content{padding-left:245px;max-width:680px}
+.devsitePage .body.documentation p img{margin:auto;display:block}
+.devsitePage .body.documentation hr{margin-left:-220px;border:0;background-color:#d2d2d2;height:1px;width:900px;margin-top:40px;margin-bottom:25px}
+.devsitePage .body.documentation h2{font-weight:normal;color:#666;font-size:21px;float:left;margin:0;margin-left:-220px;width:190px}
+.devsitePage .body.reference hr{border:0;background-color:#d2d2d2;height:1px;margin:0;margin-top:40px}
+.devsitePage .body.reference h2{font-weight:normal;color:#666;font-size:16px;margin-bottom:16px}
+.devsitePage .body table td p:last-child{margin-bottom:0}
+.devsitePage .body div.deprecated{font-weight:bold;background:#ffebe8;border:1px solid #dd3c10;margin-bottom:1em;padding:7px}
+.devsitePage .body div.fql_example{margin-bottom:1em}
+.devsitePage .bodyMenu{float:left;width:175px;overflow:hidden}
+.devsitePage .bodyMenu .title{color:#666;font-size:24px;font-weight:normal;line-height:28px;margin:0;padding:0}
+.devsitePage .bodyMenu ul{list-style-type:none;padding:0;margin:0;margin-bottom:25px}
+.devsitePage .bodyMenu li{border-bottom:1px solid #e5e5e5;margin:0}
+.devsitePage .bodyMenu h4,
+.devsitePage .bodyMenu li a{padding:5px;padding-left:5px}
+.devsitePage .bodyMenu h4{font-size:16px;font-weight:normal;color:#666;padding-top:0;padding-bottom:0;margin-bottom:8px}
+.devsitePage .bodyMenu li a{width:165px;display:block}
+.devsitePage .bodyMenu li a.selected{color:#333;font-weight:bold;background:url(/rsrc.php/zAB4O/hash/csx9ipwg.png) no-repeat right center}
+.devsitePage .bodyText{margin-left:220px}
+.devsitePage div.search{width:200px;padding-right:21px}
+.devsitePage div.search .LTypeahead th{vertical-align:bottom}
+.devsitePage .LTypeaheadResults{width:224px}
+.devsitePage .LTypeaheadResults a{color:#222}
+.devsitePage .body table.dataTable{width:auto}
+.devsitePage .body table.dataTable td,
+.devsitePage .body table.dataTable th{border:0;padding:6px;width:auto;height:auto;vertical-align:middle}
+.devsitePage .body table.dataTable th{width:auto}
+.devsitePage textarea,
+.devsitePage .inputtext,
+.devsitePage .inputpassword{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size:11px;padding:3px}
+.devsitePage .localename{font-size:10px}
+.devsitePage .inputtext,
+.devsitePage .inputpassword{margin:0;*margin:-1px 0}
+.devsitePage .inputradio{padding:0;margin:0 5px 0 0;vertical-align:middle}
+.devsitePage .inputcheckbox{border:0;vertical-align:middle}
+div.LJSDialog{z-index:1000}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{display:block;zoom:1}
+
+#bootloader_css_devsite_alite_css { height: 42px; }

@@ -1,0 +1,870 @@
+/*
+HTTP Host: static.ak.fbcdn.net
+Generated: June 2nd 2010 5:27:55 PM PDT
+Machine: 10.16.140.102
+Locale: nu_ll
+Path: css/cd470c13oyogsgkk.pkg.css
+*/
+
+.LGridCropView td{padding-right:6px;vertical-align:top}
+.LGridCropView td.last{padding-right:0}
+.LGridCropView td h3{padding-bottom:12px}
+.LGridCropView td i{width:123px;height:110px;background-color:#e2e6f0;background-position:center 25%;background-repeat:no-repeat;margin-bottom:6px;display:block}
+.LGridCropView td i.video{background-color:#000;background-position:center center;background-repeat:no-repeat;display:block;position:relative}
+.LGridCropView td i.video i.videoPlayButton{background:#5a74a9 url(/rsrc.php/z400L/hash/c3nie8fl.png) 0 -23px;bottom:10px;height:27px;left:10px;position:absolute;width:35px;margin:0}
+.LAlbumListView .LGridCropView td,
+.LAlbumListView .LGridCropView td i{width:134px}
+.LSearchView .LBingSearchResultsView{clear:both;padding-top:30px;font-size:10px}
+.LSearchView .LBingSearchResultsView h2{font-size:10px}
+.LSearchView .LBingSearchResultsView .result{margin-bottom:10px}
+.LSearchView .LBingSearchResultsView .result a{display:block;font-weight:bolder}
+.LSearchView .LBingSearchResultsView .result p{color:#666}
+.LSearchView .LBingSearchResultsView .attrib{margin-top:15px;color:#999}
+.LCIContactsView .instructions,
+.LCIContactsView .selectAll{padding-top:8px}
+.LCIContactsView .selectAll{cursor:pointer;display:inline-block;padding-bottom:4px}
+.LCIInterstitial .LCIContactsView .center{margin-top:40px}
+.LCIContactsView .selectAll input{margin:0 8px 0 9px;float:left}
+.LCIContactsView .LProfileListSelector{width:519px}
+.LCIContactsView button,
+.LCIContactsView .button{margin:10px 10px 0 0}
+.LCIInterstitial .center{width:583px;border-top:2px solid #3b5998;margin:80px auto 120px auto;background:#ededed}
+.LCIInterstitial .padding{padding:16px 22px 18px 30px}
+.LCIInterstitial .LFormView,
+.LCIInterstitial h1{border:0}
+.LCIInterstitial a.right{font-size:11px}
+.LCIInterstitial .LFormView th{width:150px}
+.LCIWebmailFormView .terms div{font-size:11px;margin:2px 0 0 5px;width:215px}
+.LDialog{display:block;width:480px;padding:8px;background:#666;margin:auto}
+.pop_dialog .popcontent_advanced{-moz-border-radius:0;border:10px solid #666}
+.pop_dialog .pop_content .dialog_content{border:none}
+.LJSDialog{position:absolute;z-index:6}
+.LDialog .dialog-title,
+.pop_dialog .pop_content h2.dialog_title{background:#6d84b4;border:none;font-size:15px;font-weight:bold;padding:5px 12px 6px;color:#fff}
+.pop_dialog .pop_content h2 span{padding:0}
+.LDialog .dialog-body,
+.pop_dialog .pop_content .dialog_content .dialog_body{background:#fff;padding:16px 12px;border:none;overflow:hidden}
+.LDialog .dialog-foot,
+.pop_dialog .pop_content .dialog_buttons{border:none;background:#ededed;padding:.5em;text-align:right}
+.LDialog button{margin-left:6px}
+.LDialog input,
+.LDialog textarea{padding:4px}
+.LDialog .instructions{font-weight:bold;width:320px;margin:10px auto 20px}
+.LErrorDialog .dialog-title{background:#ffebe8;border-color:#a00;border-bottom-color:#999;color:#222}
+.LDialog .fields{margin-top:10px}
+#captcha{padding:0 0 1em}
+#captcha h2{background:#e0e0e0;border-bottom:1px solid #ccc;padding:.5em 1em;color:#555555
+}
+#captcha .captcha-body,
+#captcha small{display:block;width:305px;margin:auto}
+#captcha small{margin-top:6px}
+#captcha img{margin:2px 0}
+#captcha input{margin-top:1px;width:292px;height:auto}
+#captcha .error{font-weight:bold;font-size:11px;color:#f00;margin-top:2px}
+#captcha .fieldError{border:2px solid #f00}
+.LDialog input,
+.LDialog textarea{border:1px solid #bdc7d8}
+.LDialog input.block{display:block;margin:3px 0 0 0}
+.LDialog .albumCreate input{padding:3px 4px}
+.LDialog .albumCreate label{padding:3px 8px 3px 0}
+.LDialog_WelcomeBalloon{width:585px}
+.LDialog_WelcomeBalloon .dialog-body{padding:0;font-size:15px}
+.LDialog_WelcomeBalloon .dialog-body td{vertical-align:middle}
+.LDialog_WelcomeBalloon .dialog-body td div{margin:10px 20px}
+.LDialog_WelcomeBalloon .dialog-body th{vertical-align:top;width:255px;background-color:#e0e4ef}
+.LEventFormView h1{border-bottom:0}
+.LEventFormView th{width:185px}
+.LEventFormView .LSplitPage_Content{padding-right:0}
+.LEventFormView .birthday select{float:left;margin-right:5px}
+.LEventFormView .dateTimeRow select{float:left;margin-right:5px}
+.LEventInviteFormView td label.stacked{padding:12px 0 8px 0;display:block}
+.LEventInviteFormView td textarea{width:400px;height:100px;display:block;border:1px solid #96a6c5;padding:4px 4px 3px 4px;margin-bottom:8px}
+.LEventListView{width:100%}
+.LEventListView .birthdays{color:#999;font-size:11px;padding-right:10px}
+.LEventListView .birthdays a{font-weight:bold}
+.LEventListView th{background:#ededed}
+.LEventListView th h3{padding:6px 20px 6px 0}
+.LEventListView td{padding-top:12px;padding-bottom:12px;border-top:1px solid #ddd}
+.LEventListView td.eventStartTime span{padding-right:20px}
+.LEventListView .eventStartTime,
+.LEventListView .eventDate{width:145px;font-weight:bold;text-align:right}
+.LEventListView .eventPicture{width:60px}
+.LEventListView .eventRSVP{width:100px;text-align:right;font-size:11px;color:#808080;padding-right:10px}
+.LEventView h1 i.edit{margin:0 4px 0 4px}
+.LEventView h1 .edit{font-size:11px;font-weight:normal}
+.LEventWallPane .rsvp{background:#ededed;margin:0 0 0 0;padding:6px 7px 7px 7px}
+.LEventWallPane .rsvp strong{font-weight:bold;padding-top:4px}
+.LEventWallPane .rsvp strong,
+.LEventWallPane .rsvp a.button{float:left;margin-right:10px}
+.LEventWallPane .changeRSVP{margin:0 .15em;font-size:11px}
+.LEventWallPane .LPublisherView{border-top:1px solid #ccc}
+.LEventWallPane .eventInfo table{margin:6px 0 6px 0}
+.LEventWallPane .eventInfo p{margin-bottom:12px}
+.LEventWallPane .eventInfo th{color:#808080;padding-right:20px;padding-bottom:6px;vertical-align:top}
+.LEventWallPane .eventInfo td{padding-bottom:6px}
+.LFilterControlView{background:#ededed;padding:6px 10px 6px 10px}
+.LFilterControlView a{color:#3b5998;font-size:13px;padding:3px 9px 4px 9px;border:1px solid #ededed}
+.LFilterControlView a{float:left}
+.LFilterControlView a.current{background:#6d84b4;color:#fff !important;font-weight:bold;text-decoration:none;border-color:#43609d #5b74aa #637bae;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px}
+.LFormView{border-top:1px solid #ccc;margin:-1px 0 0 0;padding:20px 20px 5px 20px;background:#ededed}
+.LFormView input,
+.LFormView textarea{padding:4px 4px 3px 4px;border:1px solid #96a6c5;width:275px}
+.LFormView select.full{width:235px}
+.LFormView optgroup{font-style:normal;color:#666}
+.LFormView optgroup option{color:#000}
+.LFormView h2{margin:0 0 10px 0}
+.LFormView .indent{margin:6px 0 0 22px}
+.LFormView .buttons{clear:left;width:100%;padding:20px 0 10px;text-align:center}
+.LFormView textarea{height:100px}
+.LFormView .LTypeahead th{width:190px}
+.LFormView select{padding:3px 3px 2px 3px;display:block;border:1px solid #96a6c5}
+.LFormView th label{padding:5px 10px 4px 0;display:block;text-align:right}
+.LFormView th,
+.LFormView td{vertical-align:top;padding-bottom:8px}
+.LFormView button{width:auto;margin-right:5px}
+.LFormView label.radiolabel,
+.LFormView label.checklabel{display:block}
+.LFormView label.radiolabel input,
+.LFormView label.checklabel input{border:0;margin:0 6px 3px 0;vertical-align:middle;width:auto}
+.LFormView .notice{margin-top:0}
+.LFormView .error{font-weight:bold;padding:3px;color:#e54015;font-size:11px}
+.LFormView .formError h3{font-size:13px;color:#e54015;padding-bottom:2px}
+.LFormView .formError,
+.LFormView .formError strong{color:#333;font-weight:normal;font-size:11px;padding-bottom:10px}
+.LFormView .formError strong{padding:0}
+.LFormView .fieldError{border:2px solid #e54015}
+.LFormView .captcha-body{padding:0 0 12px}
+.LFormView .captcha-body img{border:1px solid #ccc;margin-bottom:6px}
+.LFormView .captcha-body label{display:block;padding-bottom:2px}
+.LFormView input.checkbox{padding:0;border:0;width:auto;margin-right:9px}
+.LFriendListView{margin-top:10px}
+.LFriendListView .profilePhoto{font-weight:bold}
+.LFriendListView span{float:left;padding-top:15px;width:360px;line-height:1em}
+.LFriendListView .profilePhoto img{margin-bottom:0}
+.LFriendListView .group{border-bottom:1px solid #ddd;padding:0 10px 4px;margin-bottom:4px;*margin-top:-3px}
+.LFriendListView .remove{margin-top:8px}
+.LHomeAlienView{background:#dfe5ee url(/rsrc.php/z577H/hash/cct0dn0c.png) left 65px repeat-x}
+.LHomeAlienView .header{background:#3b5998;width:100%;height:65px;overflow:hidden}
+.LHomeAlienView .container{width:880px;height:550px;margin:0 auto;position:relative}
+.LHomeAlienView h2.headline{color:#11294e;font-size:24px;margin:33px 0 2px;width:660px}
+.LHomeAlienView h3{font-size:15px}
+.LHomeAlienView .subline{color:#333;font-size:15px;width:630px}
+.LHomeAlienView #footer{background:transparent}
+.LHomeAlienView #logo{background:url(/rsrc.php/z6EY7/hash/8zqoo6ra.png) 0 0 no-repeat;border:none;padding:0;width:178px;height:28px;position:absolute;left:0;top:22px}
+.LHomeAlienView #logo span{visibility:hidden}
+.LHomeAlienView .balloons{background:url(/rsrc.php/z6EY7/hash/8zqoo6ra.png) 0 -30px no-repeat;float:left;height:265px;width:490px;margin:30px 10px 30px 0}
+.LHomeAlienView .actionBox{width:365px;float:right;margin-top:20px}
+.LHomeAlienView .actionWash{border-top:2px solid #768bb7;background:#ebeef5;padding:14px 20px 22px;margin-top:2px}
+.LHomeAlienView .actionWash p{padding-bottom:6px}
+.LHomeAlienView .actionWash .button{margin:5px 0}
+.LHomeAlienView .actionWash th{width:100px;text-align:right}
+.LHomeAlienView .actionWash th label{padding:5px 8px 0 0;display:block}
+.LHomeAlienView .actionWash th,
+.LHomeAlienView .actionWash td{padding-top:8px}
+.LHomeAlienView .actionWash input{padding:4px 4px 3px 4px;border:1px solid #96a6c5}
+.LHomeAlienView .actionWash .remember{padding:4px 0 4px 0}
+.LHomeAlienView .actionWash .checklabel input{border:0;margin-right:5px}
+.LHomeAlienView .actionWash button{width:auto}
+.LHomeAlienView .languages{clear:both}
+.LHomeAlienView .languages a{padding-right:18px;padding-bottom:8px}
+.LHomeNUXView .LSplitPage_Content h1{margin-bottom:20px}
+.LHomeNUXView .steps .label{float:left;font-weight:bold;width:75px;text-align:right}
+.LHomeNUXView .steps .task{color:#797979;float:left;padding-left:10px}
+.LHomeNUXView .steps h3{padding-bottom:6px}
+.LHomeNUXView .steps .description{width:385px;padding-bottom:10px}
+.LHomeNUXView .steps li{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #e5e5e5}
+.LHomeNUXView .steps .last{padding-bottom:0;border-bottom:0;margin-bottom:0}
+.LHomeNUXView .steps .provider i{background-position:center center;background-repeat:no-repeat;display:block;width:49px;height:32px;margin:0 auto 4px auto}
+.LHomeNUXView .provider:active{background:#ddd}
+.LHomeNUXView .steps .provider i.ci-14{background-image:url(/rsrc.php/zE682/hash/d4ybqkzk.png)}
+.LHomeNUXView .steps .provider i.ci-35{background-image:url(/rsrc.php/z2YF9/hash/1f3h8zj8.png)}
+.LHomeNUXView .steps .provider i.ci-22{background-image:url(/rsrc.php/z94BR/hash/1kpiu8ub.png)}
+.LHomeNUXView .steps .provider i.ci-13{background-image:url(/rsrc.php/z8ZZQ/hash/3ejhn8bh.png)}
+.LHomeNUXView .steps .provider{margin:0 10px 10px 0;padding:4px 0 4px 0;width:80px;line-height:1.2em;height:auto;cursor:pointer}
+.LHomeNUXView .steps .upload input{width:150px}
+.LHomeNUXView .steps .upload{padding:24px 0 0 20px;float:left}
+.LHomeNUXView .steps .upload .description{width:200px;text-align:center}
+.LHomeNUXView .steps .upload input,
+.LHomeNUXView .steps .upload form,
+.LHomeNUXView .steps .upload label,
+.LHomeNUXView .steps .upload div,
+.LHomeNUXView .steps .upload button{display:block;margin:0 auto 15px auto}
+.LHomeStreamView .LSplitPage_Right,
+.LHomeStreamView .LSplitPage_Right .LSplitPage_RightInner{width:255px}
+.LHomeStreamView h1 i.edit{margin:0 4px 0 4px}
+.LHomeStreamView h1 .edit{font-size:11px;font-weight:normal}
+.LHomeStreamView h1 a.right{position:absolute;right:0;_right:20px;top:9px;_top:8px;display:block;float:none;padding:0}
+.LHomeStreamView .LPublisherView{background:none;padding:0}
+.LHomeStreamView .LPublisherView .button{margin:5px 10px 4px 0}
+.LHomeStreamView .LPublisherView form{background:#ededed;padding:8px 10px}
+.LHomeStreamView .LPYMKView a div{width:175px}
+.LHomeStreamView .LMuffinView a img{float:left;margin:6px 10px 0 0}
+.LHomeStreamView .muffin a p{float:left;margin:4px 0 0;width:135px}
+.LHomeStreamView h1{margin:0}
+.LHomeStreamView .requestsStory,
+.LHomeStreamView .eventStory,
+.LHomeStreamView .requestsStory .time, 
+.LHomeStreamView .eventStory .time{color:#666}
+.LHomeStreamView .requests a{font-weight:bold}
+.LHomeStreamView .events{margin-bottom:6px}
+.LHomeStreamView .lastEvent{margin-bottom:0}
+.LHomeStreamView .altView{position:absolute;bottom:4px;*bottom:5px;_bottom:5px;right:0;font-size:11px}
+.LStretchFormView input,
+.LStretchFormView textarea{background:#fff;border:1px solid #96a6c5;padding:5px 0 5px 3px;width:100%}
+.LStretchFormView .LTokenizerWrap{width:100%}
+.LStretchFormView .LTokenizer{padding-left:0;padding-right:0}
+.LStretchFormView td,
+.LStretchFormView th{padding-bottom:8px}
+.LStretchFormView label{display:block;text-align:right;padding:4px 10px 0 0}
+.LInboxComposeView{border-top:1px solid #ccc;background:#ededed;padding:6px 10px;margin:8px 0 0 0}
+.LInboxComposeView .back{margin:0 20px 0 0}
+.LInboxComposeView .LStretchFormView{width:485px;margin:14px 15px}
+.LInboxComposeView button{margin-right:10px}
+.LInboxComposeView .LStretchFormView textarea{height:8em}
+.LInboxComposeView .FN_typeahead_results{left:0}
+.LInboxControlsView{border-top:1px solid #ccc;background:#ededed;padding:6px 10px 6px 10px;margin-top:8px}
+.LInboxControlsView .LTypeaheadHardpoint{background:#fff;border:1px solid #777;padding:3px 4px 4px;font-size:13px;line-height:15px;border-right:0}
+.LInboxControlsView .LFilterControlView{min-width:225px;_width:225px;float:left;padding:0}
+.longLocale .LInboxControlsView .LFilterControlView a{font-size:11px;padding:3px 3px 4px;margin-top:1px}
+.LInboxControlsView button{margin-right:10px}
+.LInboxControlsView .back{float:left;width:100px}
+.LInboxControlsView .search{float:left;display:block;width:250px}
+.longLocale .LInboxControlsView .search{width:220px;margin-left:5px}
+.LInboxControlsView table.LTypeahead,
+.LInboxControlsView table.LTypeahead th,
+.LInboxControlsView table.LTypeahead input{width:100%;border:none}
+.LInboxControlsView table.LTypeahead button{margin:0;border-left-color:#777}
+table.LInboxView{margin-top:4px;width:100%;table-layout:fixed}
+table.LInboxView a{display:block}
+table.LInboxView a:hover{text-decoration:none}
+table.LInboxView p{font-size:11px;color:#797979}
+table.LInboxView td.fromPhoto{width:70px}
+table.LInboxView td.fromPhoto a{padding:4px 0 4px 10px}
+table.LInboxView td.from{width:165px}
+table.LInboxView td.from a{padding-top:14px;width:155px}
+table.LInboxView td.from a:hover{text-decoration:underline}
+table.LInboxView td.subject a{padding:14px 10px 10px 0}
+table.LInboxView td.subject a:hover h3{text-decoration:underline}
+table.LInboxView td.time{white-space:normal;color:#797979;font-size:11px;text-align:right;width:100px;vertical-align:middle;padding-right:10px}
+table.LInboxView td{border-bottom:1px solid #ddd;vertical-align:top}
+table.LInboxView tr.unread td{background:#ebeef4;border-bottom-color:#fff}
+table.LInboxView tr.last td{border-bottom-color:#ccc}
+table.LInboxView a h3{color:#3b5998;font-weight:normal}
+table.LInboxView .unread h3,
+table.LInboxView .unread .time{font-weight:bold}
+.LLocalePage{float:left;width:172px}
+.LLocalePage a{display:inline-block;padding:2px 4px 2px 4px}
+.LLocalePage a.current{font-weight:bold;background:#f5f0b9}
+.LLoginPage .center{width:583px;margin:80px auto 120px auto}
+.LLoginPage h1{border-bottom:2px solid #3b5998;margin-bottom:0}
+.LLoginPage .remember td,
+.LLoginPage .remember th{vertical-align:middle}
+.LLoginPage p{padding-top:8px;font-size:11px}
+.LLoginPage p a{padding-right:8px}
+.LLoginPage .LFormView{padding:30px 20px 15px}
+.LLoginPage .LFormView input{width:292px}
+.LLoginPage .LFormView table{width:445px}
+.LLoginPage .LFormView button{margin:0}
+.LLoginPage .callout{font-size:13px}
+.LLoginPage .languages{font-size:11px;padding-top:20px}
+.LLoginPage .languages a{padding-right:10px;padding-bottom:5px}
+.LMuffinView .muffin{display:block}
+.LMuffinView a.muffin:hover{text-decoration:none}
+.LMuffinView h4{padding-top:10px;margin-bottom:5px}
+.LMuffinView .muffin img{margin:5px 0 10px 0}
+.LMuffinView .muffin p{font-size:11px;margin-top:5px;color:#000;text-decoration:none}
+.LMuffinView a.display_url{font-size:11px;display:block;margin-bottom:10px}
+.LNoobProgressView{background:#e6eaf2;border-top:1px solid #bbc5db;bottom:0;left:0;position:fixed;right:0;z-index:1}
+.LNoobProgressView .wrapper{margin:0 auto;width:860px;padding:12px 0}
+.LNoobProgressView .description{float:left;width:485px}
+.LNoobProgressView .progress{width:270px;font-size:11px;float:right;position:relative}
+.LNoobProgressView .skip{position:absolute;right:0;top:27px}
+.LNoobProgressView .action{font-size:12px;padding:3px 4px 0 0;font-weight:bold;float:left}
+.LNoobProgressView .wrap{background:#fff;border:1px solid #bcc5d7;padding:2px;text-indent:4px;position:relative}
+.LNoobProgressView .progress span{color:#666;float:left;padding:4px 0 0 0}
+.LNoobProgressView .context{color:#3b5998;padding:2px 0}
+.LNoobProgressView .bar{background:#6f83b4;color:#fff;overflow:hidden;padding:2px 0;position:absolute;top:2px;left:2px;white-space:nowrap}
+.LNoobProgressView i{background-position:center top;background-repeat:no-repeat;display:block;height:30px;width:30px;float:left;margin-right:10px}
+.LNoobProgressView i.events{background-image:url(/rsrc.php/zCWS6/hash/4t39vhy2.png)}
+.LNoobProgressView i.home{background-image:url(/rsrc.php/z48AH/hash/1exxsljx.png)}
+.LNoobProgressView i.inbox{background-image:url(/rsrc.php/zAMPQ/hash/cw2mv9v3.png)}
+.LNoobProgressView i.info{background-image:url(/rsrc.php/z8XRL/hash/kp7d8b4r.png)}
+.LNoobProgressView i.profile{background-image:url(/rsrc.php/zEFRH/hash/sdacs1wu.png)}
+#footer.LNoobProgressSpacer{padding-bottom:120px}
+.LNoteView .noteContent{margin:10px 0;width:500px;line-height:1.4em}
+.LNoteView .meta{font-size:11px}
+.noteListView .LNoteView{margin:18px 0;border-bottom:1px solid #e0e0e0}
+.LNoteView .photo_right{float:right;padding:0 0 10px 20px}
+.LNoteView .photo_left{float:left;padding:0 20px 10px 0}
+.LNoteView .noteContent ul{list-style-type:square;padding:0 10px 0 24px;margin-top:10px}
+.LNoteView .noteContent em{font-style:italic}
+.LNoteView .noteContent i{font-style:italic}
+.LNoteView .noteContent strong{font-weight:bold}
+.optoutHeader{background-color:#2f477a;font-size:11px;padding:4px 4px;text-align:right}
+.optoutHeader, .optoutHeader a{color:#9daccc !important;font-weight:bold}
+.optoutHeader a{text-decoration:underline !important}
+.LPYMKView{margin-bottom:25px;padding-top:10px}
+.LPYMKView h4{padding-bottom:4px}
+.LPYMKView a div{float:left;width:65px}
+.LPYMKView li{border-bottom:1px solid #ddd;padding:9px 0 10px}
+.LPYMKView li.last{border-bottom:none}
+.LPYMKView .profilePhoto{width:235px}
+.LPYMKView .profilePhoto img{margin-bottom:0}
+.LPYMKView li{clear:both}
+html{overflow-y:scroll}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,blockquote,th,td,button{margin:0;padding:0;outline:0;border:0}
+input{margin:0;padding:0;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+body{font:13px/1.231 'lucida grande',tahoma,verdana,arial,sans-serif;color:#333;background:#fff;direction:ltr;text-align:left;unicode-bidi:embed;*font-size:small}
+select,
+input,
+button,
+textarea,
+button{font:99% 'lucida grande',tahoma,verdana,arial,clean,sans-serif}
+table{font-size:inherit;font:100%}
+h1,h2,h3,h4,h5{color:#333;font-weight:bold}
+h1{font-size:16px}
+h2{font-size:14px;margin:0 0 4px 0}
+h4,h5{font-size:11px}
+a{-moz-outline-style:none;text-decoration:none;cursor:pointer}
+a:visited{color:#3b5998}
+a:link{color:#3b5998}
+a:hover{text-decoration:underline}
+small{font-size:11px}
+img{display:block}
+select{border:1px solid #bdc7d8}
+button,
+a.button,
+a.button:visited,
+input.inputsubmit{background:#5e77aa url(/rsrc.php/z400L/hash/c3nie8fl.png) 0 -66px repeat-x;border:1px solid #29447e;border-bottom-color:#1a356e;color:#fff;cursor:default;font-weight:bold;text-align:center;white-space:nowrap;display:inline-block;font-size:13px;overflow:visible;padding:2px 8px 3px 8px;line-height:18px;vertical-align:baseline;width:auto;box-shadow:0 1px 0 rgba(0,0,0,.12);-moz-box-shadow:0 1px 0 rgba(0,0,0,.12);-webkit-box-shadow:0 1px 0 rgba(0,0,0,.12)}
+button{*padding:2px 4px 1px 8px;_padding-right:6px}
+a.button,
+a.button:visited{*padding:3px 8px 4px}
+button.icon,
+a.icon,
+a.icon:visited{padding-left:0;position:relative;text-indent:29px}
+td button{*width:100%;*padding-right:8px}
+.LFormView td button{*width:auto}
+button:active,
+a.button:active{background-color:#4f6aa3;background-position:0 -166px;border-bottom-color:#29447e}
+button.green,
+a.green,
+a.green:visited{background-color:#6da952;background-position:0 -116px;border:1px solid #3b6e22;border-bottom-color:#2c5a15}
+button.green:active,
+a.green:active{background-color:#5e9d43;background-position:0 -216px;border-bottom-color:#3b6e22}
+button.grey,
+input.inputaux,
+a.grey,
+a.grey:visited,
+a.button.disabled,
+button.disabled{background-color:#e4e5e5;background-position:0 -316px;border:1px solid #999;border-bottom-color:#888;color:#333;box-shadow:0 1px 0 rgba(0,0,0,.07);-moz-box-shadow:0 1px 0 rgba(0,0,0,.07);-webkit-box-shadow:0 1px 0 rgba(0,0,0,.07)}
+a.disabled,
+button.disabled{filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}
+button.grey:active,
+a.grey:active,
+button.grey_active{background-color:#ddd;background-position:0 -266px;border-bottom-color:#999}
+button.search{border:1px solid #1b3772;border-bottom-color:#132e66}
+button.search:active{border-bottom-color:#1b3772}
+button.small,
+a.small,
+a.small:visited{padding:2px 7px;height:auto;font-size:11px;line-height:16px}
+button:active::-moz-focus-inner,
+button:focus::-moz-focus-inner{border-color:#405071}
+button.green:active::-moz-focus-inner,
+button.green:focus::-moz-focus-inner{border-color:#4c713b}
+button.grey:active::-moz-focus-inner,
+button.grey:focus::-moz-focus-inner{border-color:#666}
+a.button:hover{text-decoration:none}
+.icon i{position:absolute;left:7px;top:5px;display:block}
+form table, form th{width:100%;vertical-align:top}
+form td{vertical-align:top}
+a.remove{color:#b1bdd6;cursor:pointer;display:inline-block;float:right;font-family:Arial, sans-serif;font-size:16px;font-weight:normal;line-height:.7em;padding:3px 3px 2px 3px;*font-weight:bold}
+a.remove:hover{background:#3b5998;text-decoration:none;color:#fff}
+a.remove:active{background:#324c81;color:#fff}
+.time,
+a.time{font-weight:normal;white-space:nowrap;color:#999;font-size:11px}
+.group{overflow:hidden;_overflow:visible;zoom:1}
+div.flush{clear:both}
+.left{float:left}
+.profilePhoto{font-weight:bold;float:left}
+.profilePhoto img{float:left;margin:0 10px 10px 0}
+.right{float:right;display:block}
+h1{padding:5px 0 3px 0;position:relative;border-bottom:1px solid #ccc}
+h1 .button{position:absolute;right:0;top:0}
+i{font-style:normal}
+h1 small i{margin:0 4px 0 5px}
+h4{padding:0 0 4px 0;border-bottom:1px solid #ccc}
+.needs-design{border:1px dashed #c7a;padding:4px;background:#efefef}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+a h1,
+a h2,
+a h3,
+a h4,
+a h5{color:#3b5998}
+h1 small{font-size:13px}
+.notice{font-size:11px;font-weight:bold;background:#fff9d7;border-top:1px solid #eedc6a;padding:10px;text-align:center;display:block;margin:2px 0 0}
+h1 .notice{margin-top:0;width:auto;padding:4px 30px 5px;position:absolute;top:2px;left:40%}
+.notice i{margin:0 2px}
+.hide{display:none}
+i.spacer{margin:0 4px;font-size:11px}
+p.margin{margin:0 0 16px 0}
+body#event_capture{cursor:wait}
+label,
+.label{color:#666;font-weight:bold}
+div#alertsBar{z-index:100;margin:0;padding:2px 0 0;_padding:0;text-align:center;position:fixed;_position:static;left:0;bottom:0;width:100%;background:#fff}
+div#alertsBar .content{border-top:1px solid #c5cee0;_border-top:0;_border-bottom:1px solid #c5cee0;background:#e6eaf2;margin:0;padding:14px}
+div#alertsBar span.notification{font-weight:bold;margin-right:4px}
+div#alertsBar a.remove{color:#b1bdd6 !important;font-size:24px;margin:14px 14px 0 14px}
+.LPager{float:right;line-height:20px;font-size:12px;font-weight:bold;padding-top:3px}
+h1 .LPager{padding:0;position:absolute;right:0;bottom:0}
+.LPager a{border-bottom:4px solid #fff;display:block;float:left;padding-left:3px;padding-right:3px}
+.LPager a:hover{background:#3b5998;color:#fff;text-decoration:none;border-bottom:4px solid #3b5998}
+.LPager .selected{border-bottom:4px solid #3b5998}
+.LPager .next{margin-left:3px}
+.LPhideoListView h1{margin-bottom:6px}
+.LPhideoView .LSplitPage_Content{padding-right:0;width:604px}
+.LPhideoView .LSplitPage_Right .LSplitPage_RightInner{width:auto;padding-left:10px}
+.LPhideoView .LSplitPage_Right{width:235px}
+.LPhideoView .UFIView{width:235px;clear:both;margin-top:0}
+.LPhideoView .UFIView .nub{left:-6px;top:6px;height:13px;width:6px}
+.LPhideoView .disableFeedback{margin-top:2.7em}
+.LPhideoView h1{border-bottom:none;padding-right:105px}
+.LPhideoView a.nextPager,
+.LPhideoView a.prevPager{padding:2px 16px;position:static;float:right}
+.LPhideoView a.prevPager{border-right:0}
+a.prevPager i.prevArrow,
+a.nextPager i.nextArrow{background-image:url(/rsrc.php/z400L/hash/c3nie8fl.png);background-position:-14px -52px;height:11px;width:8px;display:block;margin:4px 3px 2px}
+a.nextPager i.nextArrow{background-position:-22px -52px}
+.LPhideoView .LSplitPage_Right{width:245px}
+.LPhideoView .nextPrev{width:110px;position:absolute;right:0;top:1px}
+.LPhideoView .nextPrev span{color:#999}
+.LPhideoView .nextPrev a{font-weight:bold}
+.LPhideoView .nextPrev i{margin:0 4px 0 4px}
+.LPhideoView .frame,
+.LPhideoView .stage{position:relative;overflow:hidden;z-index:2}
+.LPhideoView .encodeWait{text-align:center;padding:100px}
+.LPhideoView .encodeWait p{margin-top:8px}
+.LPhideoView .tagged,
+.LPhideoView .phideoInfo{font-size:11px;color:#777;margin:10px 0 10px 0}
+.LPhideoView .tagButton{margin-top:10px}
+.LPhideoView .tagInstructions{position:absolute;top:0;width:604px;background:#fff9d7;border-top:1px solid #eedc6a;padding:3px 0 30px;z-index:1}
+.LPhideoView .tagInstructions span{font-size:11px;font-weight:bold;float:left;margin:4px 10px 0}
+.LPhideoView .tagInstructions a.button{margin-right:10px;padding-top:0;padding-bottom:1px}
+.LPhideoView .tagInput input{border:1px solid #96a6c5;border-right:none;padding:3px 3px 4px}
+.LPhideoView .tagged a.objectTag,
+.LPhideoView .tagged a.objectTag:hover{color:#777;text-decoration:none}
+.LPhideoView .phideoRoot{position:relative}
+.LPhideoView .phideoInfo{clear:right;float:right;text-align:right;width:200px;margin-left:10px;margin-bottom:0}
+.LPhideoView .phideoInfo a{font-weight:bold}
+.LPhideoView .delete{float:right;clear:right;font-size:11px;margin-top:10px}
+.LPhideoView .frame a.img,
+.LPhideoView .stage{background:#ededed;width:604px;display:block}
+.LPhideoView .frame img,
+.LPhideoView .stage div{margin-left:auto;margin-right:auto}
+.LPhideoView .frame .tagged a{display:inline-block}
+.LPhideoView .frame .tagged a:hover{background:white}
+.LPhideoView .frame .tagged a span{visibility:hidden;display:block;position:absolute;width:166px;height:166px;border:7px solid #fff;border-color:rgba(255,255,255,.65)}
+.LPhideoView .frame .tagged a:hover span{visibility:visible}
+.LPhideoView .taggedOverlay{text-align:center;font-size:11px}
+.LPhideoView .frame .taggedOverlay a{position:absolute;display:block;width:208px;padding-top:116px;*background:url(/rsrc.php/z400L/hash/c3nie8fl.png) 1000px 1000px no-repeat}
+.LPhideoView .frame .taggedOverlay a:hover{text-decoration:none;zoom:1}
+.LPhideoView .frame .taggedOverlay a span{font-weight:bold;color:#fff;background:#000;padding:4px 8px;display:inline-block;visibility:hidden;position:relative}
+.LPhideoView .frame .taggedOverlay a:hover span{visibility:visible}
+.LPhideoView .LSplitPage_Right .meta a{display:block;font-size:11px;padding:9px 0 5px 0}
+form.tagVideo{margin-bottom:3.5em;margin-top:4px}
+.nobreak{white-space:nowrap}
+.LPhotoListView .LGridCropView td{padding-right:7px}
+.LPhotoListView .LGridCropView td,
+.LPhotoListView .LGridCropView td i{height:110px;width:146px}
+.LPhotoListView .LGridCropView{width:605px}
+.LPhotoListView .LSplitPage_Content{padding-left:0;padding-right:20px}
+.LPhotoListView .LSplitPage_Right,
+.LPhotoListView .LSplitPage_Right .LSplitPage_RightInner{width:235px}
+.LPhotoListView .LSplitPage_Right .meta a{display:block;font-size:11px;padding:5px 0 6px 0}
+.LPhotoListView .UFIView{width:235px;clear:both;margin-top:0}
+.LPhotoListView .UFIView .nub{left:-6px;top:0;height:13px}
+div.LPhotoTagger{position:absolute;z-index:2;display:block;width:auto}
+table.LPhotoTagger{background:#333;background:rgba(20,20,20,0.5)}
+.LPhotoTagger td{padding:3px 3px 3px 0}
+.LPhotoTagger th{padding:3px 0 3px 3px}
+.LPhotoTagger .LTypeaheadHardpoint{background:#fff;border:1px solid #29447e;border-right:0;padding:3px 2px 4px}
+.LPhotoTagger input{border:0;padding:0}
+.tag-canvas{cursor:crosshair}
+.LPopular{color:#777}
+.LPopular .header{border-bottom:4px solid #4f6aa3;width:100%;height:75px;background:#3b5998;margin-bottom:100px}
+.LPopular #fakeConnect{position:absolute;right:0;top:40px}
+.LPopular #logo{border:none;display:block;width:283px;height:52px;background:url(/rsrc.php/z3LY7/hash/abe209q7.png) bottom right no-repeat}
+.LPopular #logo span{display:none}
+.LPopular .container{width:900px;margin:0 auto;position:relative}
+.LPopular a{font-weight:bold;color:#3b5998}
+.LPopular td{vertical-align:top}
+.LPopular td.Photos{width:50%}
+.LPopular td.Photos{padding-left:10px}
+.LPopular td.Photos{padding-top:10px}
+.LPopular .PopularPhotos td{padding:5px 20px 15px 0}
+.LPopular .link_title{font-size:16px;margin-bottom:4px;display:block}
+.LPopular .PopularPhotos div.PopularClip{width:120px;height:100px;overflow:hidden;background:no-repeat top center}
+.LPopular .PopularPhotos div.PopularClip .count{background-color:#fff}
+.LPopular ul.links{margin-top:10px}
+.LPopular ul.links li{margin-bottom:5px}
+.LPopular .photoFrame{display:block;position:relative}
+.LPopular .photoFrame .count{color:#fff;padding:2px 2px 2px 20px;display:block;position:absolute;top:4px;left:4px;background:rgba(0,0,0,0.7) url(/rsrc.php/z4MDA/hash/1g07cc1y.gif) 3px 2px no-repeat;border:1px solid #000;font-size:11px}
+.LPopular div.PopularVideos{margin-top:25px}
+.LPopular div.PopularVideos div{float:left;width:130px;padding:5px;overflow:hidden}
+.LPopular div.PopularVideos div img{height:100px}
+form#popular{margin-top:60px}
+#scroller{overflow:hidden;margin-bottom:10px;position:absolute;left:0;right:0;top:79px;z-index:5}
+#scroller td{}
+#scroller td a{display:block;height:75px;overflow:hidden;border-bottom:4px solid #ddd}
+#scroller td a:hover{overflow:visible}
+#scroller .ExtraPhoto{display:inline-block;width:120px;overflow:hidden;float:left;opacity:.5;filter:alpha(opacity=40)}
+#scroller .ExtraPhoto:hover{opacity:1.0;filter:alpha(opacity=100)}
+.LPopular i.videoPlayButton{background:#5a74a9 url(/rsrc.php/z400L/hash/c3nie8fl.png) no-repeat 0 -23px;top:73px;height:27px;left:10px;position:absolute;width:35px;margin:0;z-index:100}
+.LProfileEditView_Form_FIXME input,
+.LProfileEditView_Form_FIXME textarea{padding:4px 4px 3px 4px;border:1px solid #96a6c5;width:275px}
+.LProfileEditView_Form_FIXME .radiolabel input,
+.LProfileEditView_Form_FIXME .checklabel input{border:0;vertical-align:middle;width:auto}
+.LProfileEditView_Form_FIXME textarea{height:100px}
+.LProfileEditView_Form_FIXME .birthday{padding-bottom:10px}
+.LProfileEditView_Form_FIXME select{padding:3px 3px 2px 3px;display:block;border:1px solid #96a6c5}
+.LProfileEditView_Form_FIXME th label{padding:5px 10px 4px 0;display:block}
+.LProfileEditView_Form_FIXME td label{font-weight:normal}
+.LProfileEditView_Form_FIXME th,
+.LProfileEditView_Form_FIXME td{vertical-align:top;padding-bottom:15px}
+.LProfileEditView_Form_FIXME th{color:#666;font-weight:bold;width:185px;text-align:right}
+.LProfileEditView_Form_FIXME .dateTimeRow select{float:left;margin-right:5px}
+.LProfileEditView_Form_FIXME td button{width:auto;margin-right:5px}
+.LProfileEditView_Form_FIXME label.radiolabel,
+.LProfileEditView_Form_FIXME label.checklabel{display:block}
+.LProfileEditView_Form_FIXME label.radiolabel input,
+.LProfileEditView_Form_FIXME label.checklabel input{margin:3px 6px 5px 0;width:auto}
+.LProfileEditView_Form_FIXME .notice{margin-top:0}
+.LProfileInfoPane{font-size:11px}
+.LProfileInfoPane img{display:inline}
+.LProfileInfoPane .infoWrapper{margin-top:6px;clear:both}
+.LProfileInfoPane .infoTitle{float:left;width:90px;color:#808080}
+.LProfileInfoPane .infoContent{padding-left:110px}
+.LProfileInfoPane .infoBreak{padding-top:20px;margin-top:20px;border-top:1px solid #e0e0e0}
+.LProfileListSelector{background:#fff;border:1px solid #96a6c5;height:340px;overflow-x:hidden;overflow-y:scroll;padding:4px 0}
+.LProfileListSelector input{float:left;width:auto;margin:10px 8px 0 8px}
+.LProfileListSelector .checklabel input{border:0;vertical-align:middle;width:auto}
+.LProfileListSelector h2{text-align:center;margin:14px 0 8px;color:#666}
+.LProfileListSelector img{float:left;padding:0;margin:0 8px 0 0}
+.LProfileListSelector label{color:#000;cursor:pointer;float:left;height:35px;padding:0;text-align:left;width:100%}
+.LProfileListSelector label span{float:left;padding-top:10px;font-weight:bold}
+.LProfileListSelector li{border-top:1px solid #ddd}
+.LProfileListSelector li.first{border-top:0}
+.LProfileNullStatePane{background:inherit}
+.LNullStatePane{padding:100px 20px;text-align:center;color:#999}
+.LProfilePhotoPane .LSplitPage_Content .LNullStatePane h2{margin:0;border:0}
+.LNullStatePane h3{color:#333;margin:12px 0 3px 0}
+.LNullStatePane .mutualPhotos a{display:block;width:130px;height:80px;margin-right:10px;float:left;background-position:center center}
+.LNullStatePane .mutualFriends img{margin:0}
+.LNullStatePane .mutualFriends li{padding:0 10px 10px 0}
+.LNullStatePane.wallNullState{text-align:left;padding:8px 0 0;color:#333}
+.LNullStatePane.wallNullState p{font-weight:bold}
+.LNullStatePane .nullMessage{color:#999;padding:45px 0 20px;text-align:center}
+.LProfilePhotoPane h1{position:static}
+.LProfilePhotoPane .LGridCropView td,
+.LProfilePhotoPane .LGridCropView td i{width:123px;height:110px}
+.LProfilePhotoPane .LGridCropView i.video{margin:0}
+.LProfilePhotoPane .LSplitPage_Content h2{margin-top:18px;padding-bottom:3px;margin-bottom:6px;border-bottom:1px solid #ccc}
+.LProfilePhotoPane .LSplitPage_Content h2 a{font-size:11px;font-weight:normal}
+.LProfileView .LSplitPage_Left{width:200px}
+.LProfileView .LSplitPage_Right{width:145px}
+.LProfileView h1 i.edit{margin:0 4px 0 4px}
+.LProfileView h1 .edit{font-size:11px;font-weight:normal}
+.LProfileView .fileUpload{background:#ededed;border-bottom:1px solid #ccc;padding:10px;margin-bottom:4px}
+.LProfileView .fileUpload form{overflow:hidden}
+.LProfileView .fileUpload input{*border:1px solid #888;_border:1px solid #888;margin-top:4px;font-size:11px}
+.LProfileView .fileUpload button{margin-top:6px}
+.LPublisherView{background:#ededed;margin:0 0 12px 0;padding:5px 7px 6px 7px;position:relative}
+.LPublisherView form{padding:0}
+.LPublisherView th div{background:#fff;border:1px solid #bdc7d8;margin-right:5px;padding:5px}
+.LPublisherView textarea{border:0;height:35px;resize:none;width:100%}
+.LPublisherView a.button{margin-right:10px;float:left}
+.LRequestsView .requestsList .profilePhoto{display:block;padding-bottom:16px}
+.LRequestsView .requestsList .confirm{margin:0 10px 5px 10px}
+.LRequestsView .requestsList .group{border-bottom:1px solid #ddd;margin:10px 0 6px 0;padding-right:20px}
+.LRequestsView .requestsList .last{border-bottom:none}
+.LRequestsView .requestsList .meta{font-size:11px;color:#333;margin-left:110px}
+.LRequestsView .requestsList .meta a,
+.LRequestsView .requestsList .meta span{display:block}
+.LRequireConfirmationBannerView{background:#2f477a;border-bottom:1px solid #293e6a;padding:4px 10px 3px;color:#d8deea;font-size:11px;text-align:right}
+.LRequireConfirmationBannerView a,
+.LRequireConfirmationBannerView a:visited{color:#fff;margin-left:.7em}
+.LSearchView .LSplitPage_Content{padding-left:0}
+.LSearchView .LSplitPage_Left{display:none}
+.LSearchView h1{font-weight:normal}
+.LSearchView .filters{border-top:1px solid #ccc;background:#ededed;padding:6px 8px 16px 8px;margin-top:21px}
+.LSearchView .filters label{font-weight:bold;font-size:11px;color:#797979}
+.LSearchView .filters input{display:block;width:119px;padding:4px 4px 3px 4px;border:1px solid #bdc7d8;margin:3px 0 3px 0}
+.LSearchView .filters button{margin-top:2px}
+.LSearchView .searchResults .profilePhoto{display:block}
+.LSearchView .searchResults .group{border-bottom:1px solid #ddd;margin:8px 0}
+.LSearchView .searchResults .last{border-bottom:none}
+.LSearchView .searchResults .meta a,
+.LSearchView .searchResults .meta span{display:block}
+.LSearchView .resultInfo{float:left}
+.LSearchView .searchResults .meta{color:#666;font-size:11px;padding:1px 0 6px}
+.LSearchView .spellingSuggestion{color:#666;font-size:11px;margin-bottom:5px}
+.LSearchView .spellingSuggestion strong{font-weight:bold}
+.LSettingsView_IconArray{background:#ededed;padding:16px 20px;overflow:hidden}
+.LSettingsView_IconArray h2{font-size:13px;font-weight:bold;color:#666}
+.LSettingsView_IconGroup{overflow:hidden;margin-bottom:20px}
+.LSettingsView_Icon{float:left;position:relative;margin:5px 8px 0 0;width:100px;height:80px;text-align:center}
+.LSettingsView_Icon img{width:50px;height:50px;display:block;margin:5px auto 0}
+.LSettingsView_Icon a{font-weight:bold}
+.LSettingsView_Icon .icon{background-image:url(/rsrc.php/z9KCR/hash/2bwoimya.png);display:block;height:32px;width:32px;margin:auto}
+.LSettingsView_Icon .languageIcon{background-position:-32px -64px}
+.LSettingsView_Icon .mailIcon{background-position:0 0}
+.LSettingsView_Icon .passwordIcon{background-position:-32px 0}
+.LSettingsView_Icon .mobileIcon{background-position:-64px 0}
+.LSettingsView_Icon .profileIcon{background-position:0 -32px}
+.LSettingsView_Icon .postsIcon{background-position:-32px -32px}
+.LSettingsView_Icon .friendshipsIcon{background-position:-64px -32px}
+.LSettingsView_Icon .connectIcon{background-position:0 -64px}
+.LSettingsView_Icon .defaultsiteIcon{background-position:-96px -32px}
+.LSettingsView_Icon .themeIcon{background-position:-64px -64px}
+.LSettingsView_Icon .deactivateIcon{background-position:-96px 0}
+.LSettingsView{background:#ededed;padding:40px 20px;min-height:160px;height:auto;_height:160px}
+.LSettingsView .center{width:450px;margin:0 auto}
+.LSettingsView .narrow{width:320px}
+.LSettingsView .userlist th{font-weight:bold;width:250px;padding:0}
+.LSettingsView .userlist td,
+.LSettingsView .userlist th,
+.LSettingsView .userlist li{padding:6px 12px}
+.LSettingsView .userlist{background:#fff;width:295px;border:1px solid #ccc;border-top-color:#aaa;margin:4px 0;min-height:145px;display:block}
+.LSettingsView td label{display:block;text-align:right;padding:2px 10px 0 0}
+.LSettingsView th label,
+.LMobileSettingsView th label{display:block;line-height:28px;width:240px;padding:0 10px 0}
+.LSettingsView td{padding-bottom:8px}
+.LSettingsView td button,
+.LSettingsView table input,
+.LSettingsView table select{margin-right:5px;width:auto}
+.LSettingsView .formError,
+.LSettingsView .formInfo{font-size:11px;padding:6px 10px;margin:0 100px 20px 100px}
+.LSettingsView .formError{border:1px solid #e54015;background:#ffebe8}
+.LSettingsView .formInfo{border:1px solid #f5d0a9;background:#f5f0b9}
+.LSettingsView .settingsGrid{width:90%;margin:0 0 18px}
+.LSettingsView .settingsGrid td{padding:4px 0;border-bottom:1px solid #ddd}
+.LSettingsView .inlineButton{margin:0 0 0 5px}
+.LSplitPage_Right{float:right;width:145px;padding-bottom:60px;_margin-right:-3px}
+.LSplitPage_Right .LSplitPage_RightInner{width:145px}
+.LSplitPage_Left{float:left;width:200px;padding-bottom:60px;_margin-left:-3px}
+.LSplitPage_Content{padding-left:20px;padding-right:20px;padding-bottom:60px;overflow:hidden;_overflow:visible;zoom:1}
+.LSplitPage_ContentWithNoLeftColumn{padding-left:0;padding-right:20px}
+.LSplitPage_ContentWithNoRightColumn{padding-right:0}
+#navigation, #content, #footer{margin:0 auto 0 auto;width:900px}
+#content{background:#fff;position:relative;z-index:1}
+#contentWrapper{padding:18px 20px 10px 20px}
+#footer{position:relative;z-index:1;clear:both;margin:0 auto;padding:0 0 20px;color:#333;font-size:11px;background:#fff}
+#footerWrapper{padding:10px 0 0 0;margin:0 20px 0 20px;border-top:1px solid #ddd}
+#footer a.right{padding-left:20px}
+#header{background:#3b5998;margin:0;height:41px;z-index:2;position:relative}
+#navigation a{color:#fff;display:block;float:left;font-weight:bold;margin:0;padding:15px 15px 10px;position:relative}
+.longLocale #navigation a{padding:15px 9px 10px}
+#navigation a#logo{padding:11px 15px 10px}
+.longLocale #navigation a#logo{padding:11px 8px 10px;margin-left:7px}
+a#logo i{display:block;background:url(/rsrc.php/z400L/hash/c3nie8fl.png) 0 0 no-repeat;margin-left:3px;width:92px;height:20px}
+a#logo i span{visibility:hidden}
+#navigation a:hover{background-color:#5c75aa;font-weight:bold;text-decoration:none}
+#navigation a:active{background-color:#4f6aa3}
+#navigationExtra{margin:0 20px 0 0}
+#navigationExtra a{padding:15px 7px 7px;float:right}
+.longLocale #navigationExtra a{padding:15px 4px 7px}
+#navigationExtra a#settings{padding:14px 7px 8px}
+.longLocale #navigationExtra a#settings{padding:14px 4px 8px}
+#navigationExtra a i{display:block;background-image:url(/rsrc.php/z400L/hash/c3nie8fl.png);width:18px;height:19px;position:relative;opacity:.6;filter:alpha(opacity=60);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"}
+#navigationExtra #settings i{display:block;background-position:-96px 0}
+#navigationExtra #logout i{display:block;width:17px;background-position:-98px -20px}
+#navigationExtra a:hover{display:block}
+#navigationExtra a:hover i{display:block;opacity:1;filter:alpha(opacity=100);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"}
+#navigationExtra a span{position:absolute;top:45px;left:-84px;width:200px;display:block;visibility:hidden;font-size:11px;color:#5c75aa;text-align:center}
+#navigationExtra a:hover span{visibility:visible}
+#search input{border:0;font-size:11px;line-height:14px;padding:0;width:100%}
+#search{margin:12px 0 0 8px;float:right;width:255px}
+.longLocale #search{width:220px}
+#searchButton{border-left-width:0;height:23px;padding-bottom:3px;line-height:21px;padding-top:0;*line-height:18px;*height:22px;_overflow:hidden}
+#search th div.searchroot{background:#fff;padding:2px 3px 3px;border:1px solid #29447e}
+a.p{font-weight:bold}
+a.quack{position:fixed;bottom:1em;right:20px;z-index:2}
+#quackNotify{color:#293e6a;display:block;position:absolute;font-size:14px;right:3px;top:15px}
+#quackNotify.online{visibility:hidden}
+#quackNotify.alert{color:#b1bdd6;visibility:visible}
+.boxOfFail{background:#f5f0b9;border:1px solid #f5d0a9;padding:1em;margin:1em 0}
+.failHome{display:block;padding:1em 0 0}
+.LStaticPage{width:485px;line-height:18px;margin:20px 0 0 120px}
+.LStaticPage p,
+.LStaticPage ol{margin:0 0 16px 0}
+.LStaticPage ol{list-style-type:decimal}
+.LStaticPage li{margin:0 0 16px 0}
+.LStaticPage ol li ol li{margin-left:20px}
+.LStaticPage ol li ol li ol li{font-size:11px;margin-bottom:8px}
+.LStaticPage img{margin:0 0 10px 10px}
+.LStreamView li.story{border-bottom:1px solid #e6e6e6;position:relative;clear:both;margin:8px 0 0 60px;padding:0 0 7px 0;zoom:1;min-height:3.4em;height:auto;_height:3.4em;overflow:visible}
+.LStreamView li.notif,
+.LStreamView li.notifUnread{border-left:2px solid #c5cce1;border-bottom:0;padding-left:6px;margin-left:52px}
+.LStreamView li.notifUnread{border-left-color:#f00}
+.LStreamView li.photoStory,
+.LStreamView li.wallPostStory,
+.LStreamView li.friendStory,
+.LStreamView li.likeStory,
+.LStreamView li.eventStory{color:#666}
+.LStreamView li.fbpageStory,
+.LStreamView li.eventStory,
+.LStreamView li.requestsStory,
+.LStreamView li.onelinerStory,
+.LStreamView li.notificationsStory,
+.LStreamView li.paginatorDummyStory{min-height:0;_height:auto}
+.LStreamView li.last{border-bottom:none}
+ul.LStreamView ul li.last{border-bottom:1px solid #e6e6e6}
+.LStreamView li.story p{margin:0 70px 0 0}
+.LProfileView .LStreamView li.story p{margin-right:0}
+.LStreamView .profilePhoto{position:absolute;left:-60px}
+.LStreamView a.read_more{font-size:9px;margin-left:2px;margin-right:2px}
+.LStreamView .group p{padding:2px 0 3px}
+.LStreamView .portrait{float:left;margin:4px 0 0 0;width:35px}
+.LStreamView .meta{color:#777;font-size:11px;margin-top:3px}
+.LStreamView .meta a{font-weight:normal}
+.LStreamView .group .videoCrop,
+.LStreamView .group img{margin:3px 8px 2px 0}
+.LStreamView li.story .summary{margin:0 0 4px 0}
+.LStreamView li.story .actors{color:#666;margin:0 0 2px 0}
+.LStreamView .storyIcon{background-image:url(/rsrc.php/z400L/hash/c3nie8fl.png);background-repeat:no-repeat;background-position:300px 300px;display:block;height:15px;width:15px;position:absolute;left:-26px;top:1px;overflow:hidden}
+.LStreamView .unreadIcon{position:absolute;color:#3b5998;left:-40px;top:1px}
+.LStreamView .unreadIconProfilePic{left:-60px !important}
+.LStreamView .summary{color:#797979}
+.LStreamView .attachment{color:#666;font-size:11px;margin-top:4px}
+.LStreamView .eventStory .storyIcon{background-position:-66px -36px}
+.LStreamView .fbpageStory .storyIcon{background-position:-82px -21px;width:16px}
+.LStreamView .photoStory .storyIcon{background-position:-81px -36px;width:16px;height:14px}
+.LStreamView .videoStory .storyIcon,
+.LStreamView .motionStory .storyIcon{background-position:-51px -24px;height:12px}
+.LStreamView .newsStory .storyIcon{background-position:-50px -52px;height:14px}
+.LStreamView .notificationsCountStory .storyIcon{background:red;color:#fff;padding:0 1px;width:20px;font-size:11px;left:-34px;text-align:center;font-weight:bolder;border:1px solid #c33}
+.LStreamView .likeStory .storyIcon{background-position:-35px -36px;width:16px}
+.LStreamView .wallPostStory .storyIcon{background-position:-51px -36px}
+.LStreamView .requestsStory .storyIcon,
+.LStreamView .friendStory .storyIcon{background-position:-66px -22px;width:16px;height:14px}
+.LStreamView .relationshipStory .storyIcon{background-position:-35px -52px;height:14px}
+.LStreamView .placeStory .storyIcon{background-image:url(/rsrc.php/z7R5F/hash/1oiwpn1c.png);background-position:0 0;height:14px}
+.LStreamView li.story a.title{display:block;font-size:11px;font-weight:bold;padding-top:6px}
+.LStreamView li.story p.caption,
+.LStreamView li.story p.label,
+.LStreamView li.story p.byline{margin:3px 0 3px 0;padding:0;font-size:11px;color:#797979}
+.LStreamView li.story .text{font-size:11px;margin:0 35px 0 0}
+.LStreamView li.story .textAttachment{color:#333;border-left:2px solid #ccc;padding-left:10px;margin-right:80px;margin-top:5px}
+.LStreamView li.story .textAttachment a.title{padding-top:0}
+.LStreamView li.story .textAttachment .owner{display:block;font-weight:bold;margin-bottom:3px}
+.LStreamView .entity{font-size:16px;font-weight:bold;margin:0 4px 0 5px}
+.LStreamView i.videoCrop{background:#000;position:relative;width:160px;height:120px;background-position:center center;background-repeat:no-repeat;display:block}
+.LStreamView i.videoCropExternal{width:120px;height:90px}
+.LStreamView i.videoCrop i.videoPlayButton{background:#5a74a9 url(/rsrc.php/z400L/hash/c3nie8fl.png) no-repeat 0 -23px;bottom:10px;height:27px;left:10px;position:absolute;width:35px;margin:0}
+.LStreamView li.story i.notif{float:left;margin-right:5px}
+.LStreamView li.paginatorDummyStory{padding:0;margin:0;border-bottom:none}
+.streamPaginator{background:#eceff5;border-top:1px solid #c5cee0;margin:22px 0 0 0}
+.streamPaginator a{display:block;width:100%;padding:8px 0;text-align:center;font-weight:bold}
+.streamPaginator .downArrow{font-size:9px;padding:0 4px}
+.LStreamView .clippedStory{margin-bottom:18px;padding-bottom:6px;border-bottom:3px dashed #e6e6e6}
+.LStreamView .clippedStory li.story{border-bottom:0;margin-top:4px}
+.LTabView{border-right:1px solid #bbc5db;padding:9px 0 9px 7px;background:#e6eaf2;font-size:14px;font-weight:bold}
+.LTabView a{border-width:1px 0 1px 1px;border-color:#e6eaf2 #f8f9fb #c5cee0 #e6eaf2;border-style:solid;display:block;padding:8px 0 9px 10px;margin-right:8px;background:#e6eaf2;zoom:1;position:relative}
+.LTabView .last a{border-bottom-color:#e6eaf2}
+.LTabView a:hover,
+.LTabView a:active,
+.LTabView .selected a{color:#fff;text-decoration:none;margin:-1px 0 0;padding-top:9px}
+.LTabView a:hover{background:#5c75aa;border-color:#5c75aa #fff #5c75aa #5c75aa}
+.LTabView a:active{background:#536999;border-color:#536999 #fff #536999 #536999}
+.LTabView .selected a{background:#fff;border-color:#bbc5db #fff #899bc1 #bbc5db;color:#333;margin-right:-1px}
+.LTabView .count{background:#9faecc;color:#f9f9fa;font-size:11px;position:absolute;right:0;top:8px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;padding:2px 5px}
+.LTabView a:hover .count,
+.LTabView li.selected .count{background:#4a5e88;right:8px;top:9px}
+.LTabView li.selected .count{color:#7f93bc;background:#fff}
+.LTabViewHorizontal{background:#ededed;border:1px solid #e0e0e0;border-top:2px solid #ccc;padding:15px 10px;margin:5px 0 20px 0}
+.LTabViewHorizontalPane{border-top:1px solid #ccc;margin:-1px 0 0 0;padding:20px 20px 5px 20px;background:#f3f3f3}
+.LTabViewHorizontal .tabs{position:relative;top:-28px;width:100%;text-align:center}
+.LTabViewHorizontal .tabs .button{border-left-width:0;padding-left:12px;padding-right:12px}
+.LTabViewHorizontal .tabs .first{border-left-width:1px;border-top-left-radius:4px;border-bottom-left-radius:4px;-webkit-border-top-left-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;-moz-border-radius-topleft:4px}
+.LTabViewHorizontal .tabs .last{border-top-right-radius:4px;border-bottom-right-radius:4px;-webkit-border-top-right-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-topright:4px}
+.LThreadView .LStreamView,
+.LThreadView h1,
+.LThreadView .between{margin:0 55px 0 110px}
+.LThreadView .between{font-size:11px;border-bottom:1px solid #ccc;padding:0 0 8px 0}
+.LThreadView .LStreamView .story{border-top:1px solid #e6e6e6;border-bottom:none;margin-top:0;padding-top:8px}
+.LThreadView .LStreamView .first,
+.LThreadView .LStreamView li.reply{border-top:none}
+.LThreadView h1{padding:16px 0 6px 0;border:0}
+.LThreadView .LStreamView li.story{padding-bottom:14px}
+.LThreadView .LStreamView li.story p{margin:0}
+.LThreadView li.reply{border-top:1px solid #ccc;border-bottom:0;margin-top:21px;padding-top:0}
+.LThreadView form.reply th div{background:#fff;border:1px solid #bdc7d8;margin-right:6px;padding:4px}
+.LThreadView form.reply textarea{width:100%;resize:none;height:10em}
+.LThreadView form.reply{background-color:#ededed;padding:8px 10px 8px 10px;border-top:1px solid #ccc}
+.LThreadView .notice{padding:10px 0;margin:0 55px 0 110px;border-top:0}
+input.LTokenizer,
+div.LTokenizer{background:white;position:relative;display:block;width:100%}
+var.LTokenizerMetrics{position:absolute;left:20px;top:20px}
+input.LTokenizer{border:1px solid white;border-width:1px 0}
+.LTokenizerWrap{background:#fff;border:1px solid #96a6c5}
+input.LTokenizerInput{float:left;border:1px solid white;padding-right:4px;padding-left:3px}
+a.LTokenizerToken{padding:1px 0 1px 4px;border:1px solid #a4bdec;margin:3px 2px 0 4px;background:#dee7f8;float:left;cursor:text}
+a.LTokenizerToken:hover{text-decoration:none;background:#bbcef1;cursor:text}
+a.LTokenizerToken a.LTokenizerX{color:#627aad;font-family:Arial, sans-serif;font-weight:normal;cursor:pointer;padding:0 4px}
+a.LTokenizerToken a.LTokenizerX:hover{text-decoration:none}
+.LTokenizer .LTypeahead{border-color-top:#fff}
+.LTypeaheadHardpoint{position:relative;_zoom:1}
+.LTypeaheadResults{z-index:8;position:absolute;border-bottom:1px solid #203b75;padding:0;background:#fff;width:100%}
+#search div.LTypeaheadResults a,
+div.LTypeaheadResults a{color:#222;display:block;padding:.4em .5em .45em;float:none;font-size:11px;border-right:1px solid #203b75;border-left:1px solid #203b75;border-bottom:1px solid #ddd}
+#search .LTypeaheadResults a.focused,
+#search .LTypeaheadResults a:hover,
+.LTypeaheadResults a.focused,
+.LTypeaheadResults a:hover{display:block;background:#3b5998;border-top-color:#3b5998;color:#fff;text-decoration:none}
+.UFIViewContainerFIXME{clear:both}
+.UFIView{color:#333;font-size:11px;position:relative;margin-top:8px;width:375px;_overflow:hidden}
+.UFIView form.comment th div{background:#fff;border:1px solid #bdc7d8;margin-right:6px;padding:0 4px}
+.UFIView form.comment .permalinkComment th div{margin:0 0 4px}
+.UFIView form.comment .permalinkComment button{float:right;width:auto}
+.UFIView form.comment textarea{font-size:11px;width:100%;resize:none;height:13px;padding:3px 0 4px}
+.UFIView .comment,
+.UFIView .likes{background:#e6eaf2;border-bottom:1px solid #fff;padding:5px 8px}
+.UFIView .viewAll,
+.UFIView .likes{padding:6px 8px 5px}
+.UFIView form.comment{padding:5px 8px 6px}
+.UFIView .likes .icon{height:12px;float:left;margin:0 5px 0 0}
+.UFIView .nub{background:url(/rsrc.php/z400L/hash/c3nie8fl.png) no-repeat 0 -51px;width:13px;height:6px;position:absolute;top:-6px;left:10px;z-index:1}
+.LStreamView .UFIView .comment p, 
+.UFIView .comment p{font-size:11px;padding:2px 0;margin:0}
+.UFIView .caption{}
+.LVideoListView .LGridCropView i,
+.LVideoListView .LGridCropView td{width:134px;height:110px}
+.LVideoListView .LGridCropView i{margin-bottom:6px;background-color:#000}
+iframe.LVideoUploadView_frame{display:block;margin:0 auto 0 auto;width:300px;height:100px}
+.LVideoUploadView_guidelines{font-size:11px;margin:.7em 1em 0}
+.LVideoUploadView_guidelines ul{list-style-type:square}
+.LVideoUploadView_guidelines li{margin-left:1.3em}
+.LFXBlind{opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";filter:alpha(opacity=75);background:#999;position:absolute;z-index:5;top:0;left:0;right:0;bottom:0;width:100%;height:100%;min-height:100%}
+td.LFXProgress{width:100%}
+th.LFXProgress{padding-left:4px}
+div.LFXBarShell{border:1px solid #b2b2b2;background:#fff;position:relative;padding:2px}
+div.LFXBar{background:#5872a7;position:relative;height:18px;padding:0 0 1px;width:0}
+i.icon{background-repeat:no-repeat;background-image:url(/rsrc.php/z400L/hash/c3nie8fl.png);display:block;height:15px;width:15px;overflow:hidden}
+i.write{background-position:-51px -36px}
+i.photo{background-position:-81px -36px;width:16px;height:14px}
+i.video{background-position:-51px -23px;height:13px}
+i.like{background-position:-35px -24px;width:13px}
+i.notif{background-position:-96px -50px;height:16px}
+i.notifUnread{background-position:-81px -50px}
+i.lock{background-image:url(/rsrc.php/z1YVZ/hash/2s0onelb.png);background-position:center center}
+
+#bootloader_css_cd470c13oyogsgkk_pkg_css { height: 42px; }

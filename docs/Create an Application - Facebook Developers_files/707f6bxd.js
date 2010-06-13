@@ -1,0 +1,13 @@
+/*
+HTTP Host: b.static.ak.fbcdn.net
+Generated: June 8th 2010 6:09:55 PM PDT
+Machine: 10.16.139.103
+Locale: nu_ll
+Path: js/javelin/core/init.js
+*/
+
+if (window.CavalryLogger) { CavalryLogger.start_js(["js\/javelin\/core\/init.js"]); }
+
+(function(){var a=(window.Book||(window.Book=null));a&&a.at('init');if(window.top!=window.self&&!window.jxframeable){window.top.location.replace(window.self.location.href);return;}try{document.domain='facebook.com';}catch(b){}if(window.JX)return;window.JX={};window.__DEV__=window.__DEV__||0;var f=false;var h=[];var g=[];JX.__rawEventQueue=function(r){r=r||window.event;g.push(r);if(r.type=='domready'){var m=document.getElementById('autofocus');if(m)try{m.focus();if((' '+m.className+' ').match(/ FI_AUTOSELECT /))m.select();}catch(s){}}if(JX.Stratcom&&JX.Stratcom.ready){var p=g;g=[];for(var o=0;o<p.length;++o){var n=p[o];try{var test=n.type;}catch(s){continue;}if(!f&&n.type=='domready'){document.body&&(document.body.id=null);f=true;a&&a.at('hook');for(var o=0;o<h.length;o++)h[o]();a&&a.at('done');JX.__rawEventQueue({type:'bookkeep'});}JX.Stratcom.dispatch(n);}}else{var q=r.srcElement||r.target;if(q&&(r.type in {click:1,submit:1})&&(' '+q.className+' ').match(/ FI_CAPTURE /)){r.returnValue=false;r.preventDefault&&r.preventDefault();document.body.id='event_capture';return false;}}};JX.enableDispatch=function(m,event){if(m.addEventListener){m.addEventListener(event,JX.__rawEventQueue,true);}else m.attachEvent('on'+event,JX.__rawEventQueue);};var i=document.documentElement;var d=['click','keypress','mousedown','mouseover','mouseout','mouseup','keydown',!window.opera&&'submit',window.opera&&'focus',window.opera&&'blur'];for(var e=0;e<d.length;++e)d[e]&&JX.enableDispatch(i,d[e]);var l=['unload','focus','blur'];for(var e=0;e<l.length;++e)JX.enableDispatch(window,l[e]);JX.__simulate=function(n,event){if(i.attachEvent){var m={target:n,type:event};JX.__rawEventQueue(m);if(m.returnValue===false)return false;}};if(!i.addEventListener){i.onfocusin=JX.__rawEventQueue;i.onfocusout=JX.__rawEventQueue;}i=document;if(i.addEventListener){if(navigator.userAgent.match(/WebKit/)){var k=setInterval(function(){if(/loaded|complete/.test(document.readyState)){JX.__rawEventQueue({type:'domready'});clearTimeout(k);}},3);}else i.addEventListener('DOMContentLoaded',function(){JX.__rawEventQueue({type:'domready'});},true);}else{var j='javascript:void(0)';var c='JX.__rawEventQueue({\'type\':\'domready\'});';document.write('<script onreadystatechange="'+c+'" defer="defer" src="'+j+'">'+'<\/s'+'cript\>');}JX.onload=function(m){if(f){m();return;}h.push(m);};a&&a.at('load');})();
+
+if (window.Bootloader) { Bootloader.done(["js\/javelin\/core\/init.js"]); }
