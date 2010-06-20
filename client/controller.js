@@ -1,5 +1,50 @@
+var fields = '[id,name,link,facebookUid,{whole:[id,name,description,{parts:[id,name,description]}]}]';
+var profile;
+
 $(function() {
-	 window.fbAsyncInit = function() {
+	setupFacebook();
+});
+
+function getUserProfile(session)
+{
+	$.rest.get('/api/model/userProfile/facebookUid/' + session.uid,'fields=' + fields, function(resp) {
+		if( resp == null )
+		{
+			var data = {facebookUid:session.uid, accessToken:session.access_token,whole:{}};
+			$.rest.post( '/api/model/userProfile/?fields=' + fields, data, function(newProfile) {
+				profile = newProfile;
+				setupList();
+			});
+		}
+		else
+		{
+			profile = resp;
+			setupList();
+		}
+	});
+}
+
+function setupList()
+{
+	var profileTemplate = new JTMLTemplate($('script#profileTemplate'));
+	var partTemplate = new JTMLTemplate($('script#partTemplate'));
+	$('div#main').append(profileTemplate.render(profile));
+	
+	$('#addPart').click(function() {
+		var part = {name:$('input#newPartName').val()};
+		$.rest.post('/api/model/whole/' + profile.whole.id + '/parts/', {parts:[part]}, function(response) {
+			part.id = response.details[0].id;
+			$('ol#wholeList').append(partTemplate.render({part:part}));
+			$('input#newPartName').val('');
+		});
+	});
+	
+	$('input[hint]').hint();
+}
+
+function setupFacebook()
+{
+ 	window.fbAsyncInit = function() {
          FB.init({appId: '100107273374268', status: true, cookie: true,
                  xfbml: true});
      	 FB.getLoginStatus(function(response) {
@@ -25,19 +70,4 @@ $(function() {
         e.async = true;
         document.getElementById('fb-root').appendChild(e);
       }());
-});
-
-function getUserProfile(session)
-{
-	console.log(session);
-	$.rest.get('/api/model/userProfile/facebookUid/' + session.uid,'fields=*', function(resp) {
-		if( resp == null )
-		{
-			var data = {facebookUid:session.uid, accessToken:session.access_token};
-			$.rest.post( '/api/model/userProfile/?fields=*', data, function(newProfile) {
-				console.log(newProfile);
-			});
-		}
-	});
-		
 }

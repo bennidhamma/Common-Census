@@ -4,15 +4,38 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <script src="js/jquery-1.4.2.min.js"></script>
-    <script src="js/jquery.rest.js"></script>
-    <script src="js/jquery.cookie.js"></script>
-    <script src="controller.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
+    <script type="text/javascript" src="js/json2.js"></script>
+    <script type="text/javascript" src="js/jquery.rest.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/jquery.jtml.js"></script>
+    <script type="text/javascript" src="js/jquery.hint.js"></script>
+    <script type="text/javascript" src="controller.js"></script>
+    <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />	
+    <link type="text/css" href="css/styles.css" rel="stylesheet"></link>
     <title>Common Census</title>
   </head>
   <body>
-    <h1>Common Census</h1>
+    <p class="logo">Common Census</p>
     <p><fb:login-button autologoutlink="true"></fb:login-button></p>
-    
+    <div id="main"></div>
+    <div id="newPartForm">
+		<input id="newPartName" type="text" hint="what is essential?" class="text ui-widget-content ui-corner-all">
+		<button id="addPart">Add</button>
+	</div>
+	<script type="text/html" id="profileTemplate">
+	    <h1>${whole.name}</h1>
+	    <ol id="wholeList">
+	     <jtml:loop index="part" collection="whole.parts">
+			<jtml:include template="script#partTemplate"/>
+		</jtml:loop>
+		</ol>
+	</script>
+	<script type="text/html" id="partTemplate">
+		<li>
+			${part.name}
+		</li>
+	</script>
     <div id="fb-root"></div>
   </body>
 </html>

@@ -8,7 +8,7 @@ jQuery.fn.hint = function (blurClass) {
     var $input = jQuery(this),
 
     // capture the rest of the variable to allow for reuse
-      title = $input.attr('title'),
+      title = $input.attr('hint'),
       $form = jQuery(this.form),
       $win = jQuery(window);
 
