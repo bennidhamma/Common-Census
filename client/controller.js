@@ -35,11 +35,20 @@ function setupList()
 		$.rest.post('/api/model/whole/' + profile.whole.id + '/parts/', {parts:[part]}, function(response) {
 			part.id = response.details[0].id;
 			$('ol#wholeList').append(partTemplate.render({part:part}));
-			$('input#newPartName').val('');
+			$('input#newPartName').val('').focus();
 		});
 	});
 	
 	$('input[hint]').hint();
+
+	$('ol#wholeList li a.remove').live('click', function() {
+		var li = $(this).parents('li[partid]');
+		var partid = li.attr('partid');
+		var removeMessage = {parts:[partid]};
+		$.rest._delete( '/api/model/whole/' + profile.whole.id + '/parts/', removeMessage, function(r) {
+			li.slideUp('normal', function() { li.remove(); } );
+		});
+	});
 }
 
 function setupFacebook()

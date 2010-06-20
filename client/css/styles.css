@@ -5,5 +5,41 @@ body, .ui-widget-content, button {
 	font-size:1.1em;
 }
 
+h1 {
+	margin:0.25em;
+}
 
+#newPartForm {
+	margin-left:2em;
+}
 
+ol#wholeList {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	list-style:decimal inside none;
+}
+
+ol#wholeList li {
+	padding:0.25em 0;
+}
+
+ol#wholeList li span {
+	width:15em;
+}
+
+ol#wholeList li a.remove {
+	display:none;
+}
+
+ol#wholeList li:hover a.remove {
+	display:inline;
+}
+
+#commodity-crap
+{
+	float:right;
+}
+
+#commodity-crap p.logo {
+	margin:0;
+}

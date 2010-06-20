@@ -22,7 +22,7 @@ jQuery.rest = {
 		jQuery.ajax({
 			type:'DELETE',
 			url: url,
-			data: data,
+			data:  JSON.stringify(data),
 			success: callback,
 			error:errorCallback,
 			dataType: 'json'

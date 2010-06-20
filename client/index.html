@@ -16,15 +16,18 @@
     <title>Common Census</title>
   </head>
   <body>
-    <p class="logo">Common Census</p>
-    <p><fb:login-button autologoutlink="true"></fb:login-button></p>
+  	<div id="commodity-crap">
+		<p class="logo">Common Census</p>
+		<div id="fb-root"></div>
+		<fb:login-button autologoutlink="true"></fb:login-button>
+    </div>
     <div id="main"></div>
-    <div id="newPartForm">
-		<input id="newPartName" type="text" hint="what is essential?" class="text ui-widget-content ui-corner-all">
-		<button id="addPart">Add</button>
-	</div>
 	<script type="text/html" id="profileTemplate">
 	    <h1>${whole.name}</h1>
+	    <div id="newPartForm">
+			<input id="newPartName" type="text" hint="what is essential?" class="text ui-widget-content ui-corner-all">
+			<button id="addPart">Add</button>
+		</div>
 	    <ol id="wholeList">
 	     <jtml:loop index="part" collection="whole.parts">
 			<jtml:include template="script#partTemplate"/>
@@ -32,10 +35,11 @@
 		</ol>
 	</script>
 	<script type="text/html" id="partTemplate">
-		<li>
-			${part.name}
+		<li partid='${part.id}' name='${part.name}'>
+			<span class='name'>${part.name}</span>
+			<a href="#${part.name}" class="remove">[x]</a>
 		</li>
 	</script>
-    <div id="fb-root"></div>
+   
   </body>
 </html>
