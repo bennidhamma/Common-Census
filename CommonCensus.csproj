@@ -53,13 +53,24 @@
       <Project>{2648AC85-2BB4-4DA0-AF7E-F43FA0D756DA}</Project>
       <Name>WebServiceProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="emergeTk\addins\EnyimCacheProvider\EnyimCacheProvider.csproj">
+      <Project>{3E848E5D-BACB-43E8-B00C-82D18E455622}</Project>
+      <Name>EnyimCacheProvider</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Part.cs" />
     <Compile Include="Classes\Whole.cs" />
     <Compile Include="Classes\UserProfile.cs" />
+    <Compile Include="Classes\Startup.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
   </ItemGroup>
 </Project>

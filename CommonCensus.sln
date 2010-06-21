@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emergetk", "emergeTk\server
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceProvider", "emergeTk\addins\WebServiceProvider\WebServiceProvider.csproj", "{2648AC85-2BB4-4DA0-AF7E-F43FA0D756DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnyimCacheProvider", "emergeTk\addins\EnyimCacheProvider\EnyimCacheProvider.csproj", "{3E848E5D-BACB-43E8-B00C-82D18E455622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufSerializer", "emergeTk\addins\ProtobufSerializer\ProtobufSerializer.csproj", "{91E45347-1107-4DEC-A95A-A6388878FF0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,14 +27,24 @@ Global
 		{2FC2EDD6-2B2A-4F9D-B04A-4BD8EA4924C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC2EDD6-2B2A-4F9D-B04A-4BD8EA4924C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC2EDD6-2B2A-4F9D-B04A-4BD8EA4924C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E848E5D-BACB-43E8-B00C-82D18E455622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E848E5D-BACB-43E8-B00C-82D18E455622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E848E5D-BACB-43E8-B00C-82D18E455622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E848E5D-BACB-43E8-B00C-82D18E455622}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52E41D18-8F12-430D-B5B5-43C7BBA18F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52E41D18-8F12-430D-B5B5-43C7BBA18F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52E41D18-8F12-430D-B5B5-43C7BBA18F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52E41D18-8F12-430D-B5B5-43C7BBA18F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{52E41D18-8F12-430D-B5B5-43C7BBA18F61} = {76A7D7BE-2319-4152-8584-04B922B70C89}
 		{2648AC85-2BB4-4DA0-AF7E-F43FA0D756DA} = {76A7D7BE-2319-4152-8584-04B922B70C89}
+		{3E848E5D-BACB-43E8-B00C-82D18E455622} = {76A7D7BE-2319-4152-8584-04B922B70C89}
+		{91E45347-1107-4DEC-A95A-A6388878FF0D} = {76A7D7BE-2319-4152-8584-04B922B70C89}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = CommonCensus.csproj
