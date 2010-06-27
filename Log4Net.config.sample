@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log4net debug="true">
+
+	<appender name="ConsoleAppender" type="log4net.Appender.ConsoleAppender" >
+		<filter type="log4net.Filter.LevelRangeFilter">
+			<acceptOnMatch value="true" />
+			<levelMin value="DEBUG" />
+			<levelMax value="FATAL" />
+		</filter>
+		<filter type="log4net.Filter.LoggerMatchFilter">
+			<loggerToMatch value="EmergeTk.Model.MySqlProvider" />
+ 			<acceptOnMatch value="false" />
+		</filter>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%-5p %5rms [%-17.17t] %-22.22c{1} - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="FirebugAppender" type="EmergeTk.FirebugAppender" >
+		<filter type="log4net.Filter.LoggerMatchFilter">
+			<loggerToMatch value="EmergeTk.Model.MySqlProvider" />
+ 			<acceptOnMatch value="true" />
+		</filter>
+		<filter type="log4net.Filter.LevelRangeFilter">
+			<acceptOnMatch value="true" />
+			<levelMin value="DEBUG" />
+			<levelMax value="FATAL" />
+		</filter>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%-5p %5rms [%-17.17t] %-22.22c{1} - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="RollingLogFileAppender" type="log4net.Appender.RollingFileAppender">
+		<file value="/home/ben/workspaces/CommonCensus/log4net.log" />
+		<appendToFile value="true" />
+		<lockingModel type="log4net.Appender.FileAppender+MinimalLock" />
+		<datePattern value="yyyyMMdd" />
+		<rollingStyle value="Date" />
+		<filter type="log4net.Filter.LevelRangeFilter">
+			<acceptOnMatch value="true" />
+			<levelMin value="DEBUG" />
+			<levelMax value="FATAL" />
+		</filter>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%-5p %d %5rms %-22.22c{1} - %m%n" />
+		</layout>
+	</appender>
+
+       <!-- this is for a separate SOLR Log of queries -->
+	<appender name="SOLRQueryFileAppender" type="log4net.Appender.RollingFileAppender">
+		<file value="SolrQueries.log" />
+		<appendToFile value="true" />
+		<lockingModel type="log4net.Appender.FileAppender+MinimalLock" />
+		<datePattern value="yyyyMMdd" />
+		<rollingStyle value="Date" />
+		<filter type="log4net.Filter.LoggerMatchFilter">
+			<loggerToMatch value="SolrQueries" />
+ 			<acceptOnMatch value="true" />
+		</filter>
+
+		<filter type="log4net.Filter.DenyAllFilter" />
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%-5p %d %5rms %-22.22c{1} - %m%n" />
+		</layout>
+	</appender>
+
+
+	<appender name="UdpAppender" type="log4net.Appender.UdpAppender">
+	    <param name="RemoteAddress" value="localhost" />
+	    <param name="RemotePort" value="9999" />
+	    <layout type="log4net.Layout.PatternLayout" value="{%level}%date{MM/dd HH:mm:ss} - %message" />
+	</appender>
+
+
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="ConsoleAppender"/>
+		<appender-ref ref="RollingLogFileAppender" />	
+	</root>
+</log4net>
+

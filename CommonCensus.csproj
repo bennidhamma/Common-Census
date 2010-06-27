@@ -57,6 +57,10 @@
       <Project>{3E848E5D-BACB-43E8-B00C-82D18E455622}</Project>
       <Name>EnyimCacheProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="emergeTk\addins\SolrSearchProvider\SolrSearchProvider.csproj">
+      <Project>{B6781C36-01AD-4F49-B4AE-A637945676F0}</Project>
+      <Name>SolrSearchProvider</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Part.cs" />
@@ -66,11 +70,48 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Comment.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
+    <Folder Include="client\user\" />
+    <Folder Include="client\" />
+    <Folder Include="client\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="client\admin\controller.js" />
+    <Content Include="client\admin\index.html" />
+    <Content Include="client\admin\styles.css" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="client\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="client\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="client\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="client\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="client\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="client\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="client\css\ui-lightness\jquery-ui-1.8.1.custom.css" />
+    <Content Include="client\css\styles.css" />
+    <Content Include="client\js\jquery.cookie.js" />
+    <Content Include="client\js\jquery.gritter.js" />
+    <Content Include="client\js\jquery.hint.js" />
+    <Content Include="client\js\jquery.jeditable.mini.js" />
+    <Content Include="client\js\jquery.jtml.js" />
+    <Content Include="client\js\jquery.remote-jtml.js" />
+    <Content Include="client\js\jquery.rest.js" />
+    <Content Include="client\js\jquery-1.4.2.js" />
+    <Content Include="client\js\jquery-1.4.2.min.js" />
+    <Content Include="client\js\jquery-ui-1.8.1.custom.min.js" />
+    <Content Include="client\js\json2.js" />
+    <Content Include="client\user\controller.js" />
+    <Content Include="client\user\index.html" />
+    <Content Include="web.config" />
   </ItemGroup>
 </Project>

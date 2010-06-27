@@ -1,10 +1,6 @@
-var fields = '[id,name,link,facebookUid,{whole:[id,name,description,{parts:[id,name,description]}]}]';
+var fields = '[id,name,link,facebookUid,{whole:[id,name,description,{parts:[id,name,canonical]}]}]';
 var profile;
 var getUserProfileCalled = false;
-
-$(function() {
-	setupFacebook();
-});
 
 function getUserProfile(session)
 {
@@ -71,7 +67,8 @@ function setupList()
 	}, {
 		type : 'textarea',
 		submit: 'Save',
-		cancel: 'Cancel'
+		cancel: 'Cancel',
+		onblur: 'ignore'
 	});
 }
 

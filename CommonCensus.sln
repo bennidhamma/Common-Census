@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnyimCacheProvider", "emerg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufSerializer", "emergeTk\addins\ProtobufSerializer\ProtobufSerializer.csproj", "{91E45347-1107-4DEC-A95A-A6388878FF0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrSearchProvider", "emergeTk\addins\SolrSearchProvider\SolrSearchProvider.csproj", "{B6781C36-01AD-4F49-B4AE-A637945676F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,12 +41,17 @@ Global
 		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91E45347-1107-4DEC-A95A-A6388878FF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6781C36-01AD-4F49-B4AE-A637945676F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6781C36-01AD-4F49-B4AE-A637945676F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6781C36-01AD-4F49-B4AE-A637945676F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6781C36-01AD-4F49-B4AE-A637945676F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{52E41D18-8F12-430D-B5B5-43C7BBA18F61} = {76A7D7BE-2319-4152-8584-04B922B70C89}
 		{2648AC85-2BB4-4DA0-AF7E-F43FA0D756DA} = {76A7D7BE-2319-4152-8584-04B922B70C89}
 		{3E848E5D-BACB-43E8-B00C-82D18E455622} = {76A7D7BE-2319-4152-8584-04B922B70C89}
 		{91E45347-1107-4DEC-A95A-A6388878FF0D} = {76A7D7BE-2319-4152-8584-04B922B70C89}
+		{B6781C36-01AD-4F49-B4AE-A637945676F0} = {76A7D7BE-2319-4152-8584-04B922B70C89}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = CommonCensus.csproj
