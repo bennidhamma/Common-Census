@@ -11,6 +11,8 @@
     <script type="text/javascript" src="../js/jquery.jtml.js"></script>
     <script type="text/javascript" src="../js/jquery.hint.js"></script>
     <script type="text/javascript" src="../js/jquery.jeditable.mini.js"></script>
+    <script type="text/javascript" src="../js/jquery.timeago.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
     <script type="text/javascript" src="controller.js"></script>
     <link type="text/css" href="../css/ui-lightness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />	
     <link type="text/css" href="../css/styles.css" rel="stylesheet"></link>
@@ -22,8 +24,20 @@
 		<div id="fb-root"></div>
 		<fb:login-button autologoutlink="true"></fb:login-button>
     </div>
-    <div id="main"></div>
 	<h1></h1>
+    <div id="comments"></div>
+    <form id="commentForm" style="display:none">
+    	<label for="title">Title:</label><input id="title" name="title">
+    	<label for="body">Body:</label><textarea rows="5" cols="80" id="body" name="body"></textarea>
+    	<button id="addComment">Add Comment</button>
+    </form>
+	<script type="text/html" id="commentTemplate">
+		<div commentid="${id}">
+			<h2>${title}</h2>
+			<p>${body}</p> 
+			<em>by ${author.name}, <span class='timeago' title="${date}">${date}</span></em>
+		</div>
+	</script>
 	<script>
 		$(function() {
 			setupNeed();

@@ -22,6 +22,17 @@ namespace CommonCensus
 			}
 		}
 		
+		private IRecordList<Comment> comments;
+		public IRecordList<Comment> Comments {
+			get {
+				if( comments == null )
+					lazyLoadProperty<Comment>("Comments");
+				return comments;
+			}
+			set {
+				comments = value;
+			}
+		}		
 	}
 	
 	public class PartIndexer : IIndexer<Part>
