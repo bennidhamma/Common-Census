@@ -1,28 +1,3 @@
-var fields = '[id,name,link,facebookUid,{whole:[id,name,description,{parts:[id,name,canonical]}]}]';
-var profile;
-var getUserProfileCalled = false;
-
-function getUserProfile(session)
-{
-	if( getUserProfileCalled ) return;
-	getUserProfileCalled = true;
-	$.rest.get('/api/model/userProfile/facebookUid/' + session.uid,'fields=' + fields, function(resp) {
-		if( resp == null )
-		{
-			var data = {facebookUid:session.uid, accessToken:session.access_token,whole:{}};
-			$.rest.post( '/api/model/userProfile/?fields=' + fields, data, function(newProfile) {
-				profile = newProfile;
-				setupList();
-			});
-		}
-		else
-		{
-			profile = resp;
-			setupList();
-		}
-	});
-}
-
 function setupList()
 {
 	var profileTemplate = new JTMLTemplate($('script#profileTemplate'));

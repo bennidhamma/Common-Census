@@ -22,6 +22,15 @@ function setupNeed()
 
 function setupCommentForm()
 {	
+	var haveNeed = $.grep( profile.whole.parts, function(p) { return p.id == part.id } ).length;
+	if( haveNeed )
+	{
+		showHaveNeed();
+	}
+	else
+	{
+		showDoesNotHaveNeed();
+	}
 	$('#commentForm').show().submit(function() {		
 		return false;
 	});
@@ -39,5 +48,33 @@ function setupCommentForm()
 			$('#comments').append(newItem);
 		});
 	});
+	
+	$('a#removeNeed').click(function() {
+		$.rest._delete('/api/model/whole/' + profile.whole.id + '/parts', { parts: [ part.id ] }, 
+		function() {
+			showDoesNotHaveNeed();
+		});
+		return false;
+	});
+	
+	$('a#addNeed').click(function() {
+		$.rest.post('/api/model/whole/' + profile.whole.id + '/parts', { parts: [ part.id ] }, 
+		function() {
+			showHaveNeed();
+		});
+		return false;
+	});
+}
+
+function showHaveNeed()
+{
+	$('#haveNeed').show();
+	$('#doesNotHaveNeed').hide();
+}
+
+function showDoesNotHaveNeed()
+{
+	$('#doesNotHaveNeed').show();
+	$('#haveNeed').hide();
 }
 

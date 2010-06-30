@@ -1,0 +1,27 @@
+h2 {
+	margin:0;
+}
+
+label {
+	display:inline-block;
+	width:10em;
+	margin:1em;
+}
+
+fieldset {
+	border:1px solid #ccc;
+}
+
+h3 {
+	border-bottom:1px solid #ccc;
+}
+
+div.comment {
+	margin:1em;
+	border:1px solid #aaa;
+	padding:1em;
+}
+
+div.comment em {
+	font-size:0.85em;
+}
