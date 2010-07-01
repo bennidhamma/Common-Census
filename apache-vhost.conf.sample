@@ -1,0 +1,38 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName commoncens.us
+
+    MonoAutoApplication disabled    
+    MonoApplications "/api:/home/ben/workspaces/CommonCensus/"
+
+    MonoDebug default true
+    MonoMaxActiveRequests 400 
+    MonoMaxWaitingRequests 400 
+    MonoSetEnv MONO_THREADS_PER_CPU=201 
+
+    DocumentRoot /home/ben/workspaces/CommonCensus/client
+    <Directory />
+        Options FollowSymLinks Indexes
+        AllowOverride All
+    </Directory>
+    <Directory /home/ben/workspaces/CommonCensus/client>        
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+		RewriteEngine on
+		RewriteCond %{REQUEST_FILENAME} !(\.css|\.js)
+		RewriteRule ^need/.* need/index.html
+    </Directory>
+    <Location /api>
+        SetHandler mono
+    </Location>
+
+    ErrorLog /var/log/apache2/commoncens.us-error.log
+
+    # Possible values include: debug, info, notice, warn, error, crit,
+    # alert, emerg.
+    LogLevel warn
+
+    CustomLog /var/log/apache2/commoncens.us-access.log combined  
+</VirtualHost>

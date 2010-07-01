@@ -6,8 +6,8 @@ var partFields = '[id,name,canonical,{comments:[id,title,body,date,{author:[id,n
 function setupNeed()
 {
 	commentTemplate = new JTMLTemplate($('script#commentTemplate'));
-	needCanonical = document.location.hash.substr(1);
-	$.rest.get('/api/model/part/search?fields=' + partFields + '&q=Canonical:' + needCanonical, null, function(r) {
+	needCanonical = document.location.pathname.split('/')[2];
+	$.rest.get('/api/model/part/search?fields=' + partFields + '&q=Canonical:' + escape(needCanonical), null, function(r) {
 		$('h1').html(r.parts[0].name);
 		document.title = r.parts[0].name;
 		part = r.parts[0];
