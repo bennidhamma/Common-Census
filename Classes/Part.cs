@@ -32,7 +32,16 @@ namespace CommonCensus
 			set {
 				comments = value;
 			}
-		}		
+		}	
+		
+		private int wholeCount = -1;
+		public int WholeCount {
+			get {
+				if( wholeCount == -1 )
+					wholeCount = this.LoadParentIds( ColumnInfoManager.RequestColumn<Whole>("Parts") ).Count;
+				return wholeCount;
+			}
+		}
 	}
 	
 	public class PartIndexer : IIndexer<Part>
@@ -41,9 +50,9 @@ namespace CommonCensus
 		#region IIndexer[Part] implementation
 		public void Index (Part record, List<Field> fields)
 		{
-			log.Debug("adding field ", record.Name);
 			fields.Add(new Field("Name", record.Name));
 			fields.Add(new Field("Canonical", record.Canonical));
+			fields.Add(new Field("WholeCount", record.WholeCount));
 		}
 		#endregion		
 	}

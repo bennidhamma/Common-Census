@@ -4,7 +4,7 @@ jQuery.rest = {
 			url: url,
 			data: data,
 			success: callback,
-			error:errorCallback,
+			error:errorCallback || defualtErrorHandler,
 			dataType: 'json'
 		});
 	},
@@ -14,18 +14,18 @@ jQuery.rest = {
 			url: url,
 			data: JSON.stringify(data),
 			success: callback,
-			error:errorCallback,
+			error:errorCallback || defualtErrorHandler,
 			dataType: 'json'
 		});
 	},
 	_delete : function(url, data, callback, errorCallback) {
 		jQuery.ajax({
 			type:'DELETE',
+			data : JSON.stringify(data),
 			url: url,
-			data:  JSON.stringify(data),
 			success: callback,
-			error:errorCallback,
-			dataType: 'json'
+			error:errorCallback || defualtErrorHandler,
+			dataType : 'json'
 		});
 	},
 	post : function(urlOrObject, data, success, error) {
@@ -42,13 +42,24 @@ jQuery.rest = {
 			args.url = urlOrObject;
 			args.data = data;
 			args.success = success;
-			args.error = error;
-			
+			args.error = error || defualtErrorHandler;
 		}
 		args.data = JSON.stringify(args.data);
 		jQuery.ajax(args);
 	}
 };
+
+function defualtErrorHandler(error)
+{
+	if( $.gritter )
+	{
+		$.gritter.add({
+			title: 'An Error Occurred',
+			text:error.statusText,
+			image:'../images/Warning.png'
+		});
+	}
+}
 
 jQuery.fn.mapValues = function() {
 	var object = {};
@@ -94,4 +105,29 @@ jQuery.fn.error = function(method) {
 		}
 		break;
 	}
+}
+
+jQuery.fn.enter = function(handler) 
+{
+	this.keypress(function(e) {
+		if( e.keyCode == 13 )
+		{
+			handler.call(this,e);
+			return false;
+		}
+	});
+}
+
+String.prototype.format = function() {
+    var txt = this,
+        i = arguments.length;
+
+    while (i--) {
+        txt = txt.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);
+    }
+    return txt;
+};
+
+Number.prototype.toCurrency = function() {
+	return '$' + this.toFixed(2);
 }

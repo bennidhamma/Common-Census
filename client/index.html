@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.8.1.custom.min.js"></script>
+    <script type="text/javascript" src="/js/json2.js"></script>
+    <script type="text/javascript" src="/js/jquery.rest.js"></script>
+    <script type="text/javascript" src="/js/jquery.address-1.2.1.js"></script>
+    <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/js/jquery.jtml.js"></script>
+    <script type="text/javascript" src="/js/jquery.hint.js"></script>
+    <script type="text/javascript" src="/js/jquery.jeditable.mini.js"></script>
+    <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+    <script type="text/javascript" src="controller.js"></script>
+    <link type="text/css" href="/css/ui-lightness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />	
+    <link type="text/css" href="/css/styles.css" rel="stylesheet"></link>
+    <link type="text/css" href="styles.css" rel="stylesheet"></link>
+    <title>Common Census</title>
+  </head>
+  <body>
+  	<div id="commodity-crap">
+		<p class="logo">Common Census</p>
+		<div id="fb-root"></div>
+		<fb:login-button autologoutlink="true"></fb:login-button>
+    </div>
+	<h1>Common Needs</h1>
+	<ol>
+		
+	</ol>
+	<a href="#" id="moreNeeds">more needs&hellip;</a>
+	<script type="text/html" id="partTemplate">
+		<li partid='${id}' name='${name}'>
+			<a href="../need/${canonical}"><span class='name'>${name}</span></a>
+		</li>
+	</script>
+	<script>
+		$(function() {
+			setupHome();
+		});
+	</script>  
+  </body>
+</html>
