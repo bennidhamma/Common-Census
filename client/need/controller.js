@@ -1,23 +1,42 @@
 var needCanonical;
 var part;
-var commentTemplate;
-var partFields = '[id,name,canonical,{comments:[id,title,body,date,{author:[id,name,facebookUid]}]}]';
+var commentTemplate, userTemplate;
+var partFields = JSON.stringify([
+	'id',
+	'name',
+	'wholeCount',
+	'canonical',
+	{
+		comments: ['id','title','body','date',{author:['id','name','facebookUid']}],
+		owners: ['id','name','facebookUid']
+	}
+]);
 
 function setupNeed()
 {
 	commentTemplate = new JTMLTemplate($('script#commentTemplate'));
+	userTemplate = new JTMLTemplate($('script#userTemplate'));
 	needCanonical = document.location.pathname.split('/')[2];
 	$.rest.get('/api/model/part/search?fields=' + partFields + '&q=Canonical:' + escape(needCanonical), null, function(r) {
-		$('h1').html(r.parts[0].name);
-		document.title = r.parts[0].name;
 		part = r.parts[0];
+		$('h1 span').html(part.name);
+		document.title = part.name;
+		updateCount();
 		$.each(part.comments, function(i,v) {
 			$('#comments').append(commentTemplate.render(v));
+		});
+		$.each(part.owners, function(i,v) {
+			$('#users').append(userTemplate.render(v));
 		});
 		$('.timeago').timeago();
 	});
 	
 	setupFacebook(setupCommentForm);
+}
+
+function updateCount()
+{
+	$('h1 em.needCount').html( needCountString( part.wholeCount ) + ' this' );
 }
 
 function setupCommentForm()
@@ -53,6 +72,10 @@ function setupCommentForm()
 		$.rest._delete('/api/model/whole/' + profile.whole.id + '/parts', { parts: [ part.id ] }, 
 		function() {
 			showDoesNotHaveNeed();
+			//trigger a recount of wholeCount
+			$.rest.put('/api/model/part/' + part.id, {wholeCount:-1});
+			part.wholeCount--;
+			updateCount();
 		});
 		return false;
 	});
@@ -61,6 +84,9 @@ function setupCommentForm()
 		$.rest.post('/api/model/whole/' + profile.whole.id + '/parts', { parts: [ part.id ] }, 
 		function() {
 			showHaveNeed();
+			$.rest.put('/api/model/part/' + part.id, {wholeCount:-1});
+			part.wholeCount++;
+			updateCount();
 		});
 		return false;
 	});

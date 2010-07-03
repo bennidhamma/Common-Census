@@ -15,6 +15,12 @@ h1 {
 	margin-right:200px;
 }
 
+h2 {
+	font-size:1.4em;
+	font-weight:normal;
+	color:#444;
+}
+
 h1 input {
 	font-size:1.0em;
 }
@@ -54,4 +60,12 @@ ol#wholeList li:hover a.remove {
 
 #commodity-crap p.logo {
 	margin:0;
+}
+
+.needCount {
+	color:#bbb;
+	font-size:0.7em;
+	margin-left:1em;
+	font-style:normal;
+	white-space:nowrap;
 }

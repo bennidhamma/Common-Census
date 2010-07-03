@@ -41,6 +41,23 @@ namespace CommonCensus
 					wholeCount = this.LoadParentIds( ColumnInfoManager.RequestColumn<Whole>("Parts") ).Count;
 				return wholeCount;
 			}
+			set {
+				wholeCount = value;	
+			}
+		}
+		
+		public IRecordList<UserProfile> Owners { 
+			get {
+				IRecordList<Whole> wholes = this.LoadParents<Whole>("Parts");
+				IRecordList<UserProfile> userProfiles = new RecordList<UserProfile>();
+				foreach( Whole w in wholes )
+				{
+					UserProfile up = AbstractRecord.Load<UserProfile>(new FilterInfo("Whole", w) );
+					if( up != null )
+						userProfiles.Add( up );
+				}
+				return userProfiles;
+			}
 		}
 	}
 	

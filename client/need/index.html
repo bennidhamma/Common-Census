@@ -25,10 +25,16 @@
 		<div id="fb-root"></div>
 		<fb:login-button autologoutlink="true"></fb:login-button>
     </div>
-	<h1></h1>
+    <!--header-->
+	<h1><span></span><em class='needCount'></em></h1>
 	<div id="haveNeed" style="display:none">I have this need.  <a href="#" id="removeNeed">I don't need this anymore.</a></div>
 	<div id="doesNotHaveNeed" style="display:none"><a href="#" id="addNeed">I need this.</a></div>
+	<!--body-->
+	<h2>People who need this</h2>
+	<div id="users"></div>
     <div id="comments"></div>
+    
+    
     <form id="commentForm" style="display:none">
     	<fieldset>
     	<legend>Share your feelings or thoughts</legend>
@@ -37,6 +43,12 @@
     	<button id="addComment">Add Comment</button>
     	</fieldset>
     </form>
+    <script type="text/html" id="userTemplate">
+    	<div class="user">
+    		<img width=50 height=50 src="http://graph.facebook.com/${facebookUid}/picture">
+    		${name}
+    	</div>
+    </script>
 	<script type="text/html" id="commentTemplate">
 		<div class="comment" commentid="${id}">
 			<h2>${title}</h2>

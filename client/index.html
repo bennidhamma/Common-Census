@@ -34,6 +34,7 @@
 	<script type="text/html" id="partTemplate">
 		<li partid='${id}' name='${name}'>
 			<a href="../need/${canonical}"><span class='name'>${name}</span></a>
+			<em class='needCount'>${wholeCount == 1 ? '1 person needs' : wholeCount + ' people need'}</em>
 		</li>
 	</script>
 	<script>

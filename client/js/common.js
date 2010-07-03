@@ -54,3 +54,9 @@ function getUserProfile(callback, session)
 		}
 	});
 }
+
+function needCountString(count)
+{
+	if( count == 1 ) return "1 person needs";
+	else return count + ' people need';
+}
