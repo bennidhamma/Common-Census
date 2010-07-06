@@ -41,7 +41,7 @@ function updateCount()
 
 function setupCommentForm()
 {	
-	var haveNeed = $.grep( profile.whole.parts, function(p) { return p.id == part.id } ).length;
+	var haveNeed = $.grep( profile.whole.parts, function(p) { return p.canonical == part.canonical } ).length;
 	if( haveNeed )
 	{
 		showHaveNeed();

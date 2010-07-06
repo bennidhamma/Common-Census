@@ -3,7 +3,7 @@ var userProfile;
 function setupUser()
 {
 	var pathNames = document.location.pathname.split('/');
-	if( pathNames.length <= 2 )
+	if( pathNames.length <= 2 ||pathNames[2] == "" )
 		setupFacebook(setupList);
 	else
 	{
@@ -23,10 +23,6 @@ function setupList()
 	var partTemplate = new JTMLTemplate($('script#partTemplate'));
 	$('div#main').append(profileTemplate.render(profileToShow));
 	
-	
-	
-	
-
 	if( viewingSelf )
 	{
 		$('#addPart').click(function() {
