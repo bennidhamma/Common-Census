@@ -20,29 +20,33 @@
     <title>Common Census Need</title>
   </head>
   <body>
-  	<div id="commodity-crap">
+  	<div id="sidebar">
 		<p class="logo"><a href="/">Common Census</a></p>
 		<div id="fb-root"></div>
 		<fb:login-button autologoutlink="true"></fb:login-button>
+		
+		<div id="stats">
+			<h2>People who need this are&hellip;</h2>
+		</div>
     </div>
-    <!--header-->
-	<h1><span></span><em class='needCount'></em></h1>
-	<div id="haveNeed" style="display:none">I have this need.  <a href="#" id="removeNeed">I don't need this anymore.</a></div>
-	<div id="doesNotHaveNeed" style="display:none"><a href="#" id="addNeed">I need this.</a></div>
-	<!--body-->
-	<h2>People who need this</h2>
-	<div id="users"></div>
-    <div id="comments"></div>
-    
-    
-    <form id="commentForm" style="display:none">
-    	<fieldset>
-    	<legend>Share your feelings or thoughts</legend>
-    	<div><label for="title">Title:</label><input id="title" name="title"></div>
-    	<div><label for="body">Body:</label><textarea rows="5" cols="80" id="body" name="body"></textarea></div>
-    	<button id="addComment">Add Comment</button>
-    	</fieldset>
-    </form>
+    <div id="main">
+		<!--header-->
+		<h1><span></span><em class='needCount'></em></h1>
+		<div id="haveNeed" style="display:none">I have this need.  <a href="#" id="removeNeed">I don't need this anymore.</a></div>
+		<div id="doesNotHaveNeed" style="display:none"><a href="#" id="addNeed">I need this.</a></div>
+		<!--body-->		 
+		<h2>People who need this</h2>
+		<div id="users"></div>
+		<div id="comments"></div>
+		<form id="commentForm" style="display:none">
+			<fieldset>
+			<legend>Share your feelings or thoughts</legend>
+			<div><label for="title">Title:</label><input id="title" name="title"></div>
+			<div><label for="body">Body:</label><textarea rows="5" cols="80" id="body" name="body"></textarea></div>
+			<button id="addComment">Add Comment</button>
+			</fieldset>
+		</form>
+	</div>
     <script type="text/html" id="userTemplate">
     	<div class="user">
     		<img width=50 height=50 src="http://graph.facebook.com/${facebookUid}/picture">

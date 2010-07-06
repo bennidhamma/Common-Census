@@ -20,6 +20,10 @@ namespace CommonCensus
 				else
 					return null;
 			}
+			set
+			{
+				//no-op	
+			}
 		}
 		
 		private IRecordList<Comment> comments;

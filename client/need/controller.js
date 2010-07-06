@@ -32,6 +32,28 @@ function setupNeed()
 	});
 	
 	setupFacebook(setupCommentForm);
+	
+	//get facets.
+	$.rest.get(
+		'/api/model/userProfile/search',
+		'?q=Need:{0}&facet=true&facetFields=Gender,Religion,Political,AgeRange&fields=*&count=0'.format(needCanonical), 
+		function(resp) {
+			$.each( resp.facets, showFacetDetails );
+		}
+	);
+}
+
+function showFacetDetails(key,facet) {
+	var sum = facet.reduce( function(p,c) { return (p ? p.count : 0 )+c.count; }, 0 );
+	var html = '<h3>{0}</h3><ol>'.format(key)
+
+	$.each( facet, function(i,v) {
+		html += '<li>{0} -- {1}%</li>'.format(v.value, ((v.count / sum )*100).toFixed(0) );
+	});
+	
+	html += "</ol>";
+	
+	$('#stats').append(html);
 }
 
 function updateCount()

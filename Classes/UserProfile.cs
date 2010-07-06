@@ -165,7 +165,7 @@ namespace CommonCensus
 			}
 			foreach( Part p in record.Whole.Parts )
 			{
-				fields.Add( new Field("Need", p.Name) );
+				fields.Add( new Field("Need", p.Canonical) );
 			}
 		}
 						           

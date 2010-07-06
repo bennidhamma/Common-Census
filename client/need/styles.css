@@ -4,16 +4,27 @@ h2 {
 
 label {
 	display:inline-block;
-	width:10em;
+	width:20%;
 	margin:1em;
+}
+
+#stats {
+	font-size:0.8em;
+	margin-top:1em;
+}
+
+#stats ol {
+	list-style:none;
+	padding:0;
+}
+
+#stats h3 {
+	border-bottom:1px dotted #ccc;
 }
 
 fieldset {
 	border:1px solid #ccc;
-}
-
-h3 {
-	border-bottom:1px solid #ccc;
+	margin:1em;
 }
 
 div.comment {
@@ -24,4 +35,17 @@ div.comment {
 
 div.comment em {
 	font-size:0.85em;
+}
+
+#users img {
+	width:30px;
+	height:30px;
+}
+
+#commentForm input, #commentForm textarea {
+	width:70%;
+	border:1px solid #ccc;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	font-size:1em;
 }

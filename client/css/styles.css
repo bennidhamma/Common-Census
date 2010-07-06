@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Cantarell);
 
-body, .ui-widget-content, button, input {
+body, .ui-widget-content, button, input,textarea {
 	font-family:Cantarell, Verdana, Arial;
 	font-size:1.1em;
 }
@@ -17,6 +17,12 @@ h1 {
 
 h2 {
 	font-size:1.4em;
+	font-weight:normal;
+	color:#444;
+}
+
+h3 {
+	font-size:1.2em;
 	font-weight:normal;
 	color:#444;
 }
@@ -53,12 +59,20 @@ ol#wholeList li:hover a.remove {
 	display:inline;
 }
 
-#commodity-crap
-{
-	float:right;
+#main {
+	margin-right:17em;
 }
 
-#commodity-crap p.logo {
+#sidebar
+{
+	position:absolute;
+	top:0;
+	right:0;
+	width:15em;
+	margin:0 1em;
+}
+
+#sidebar p.logo {
 	margin:0;
 }
 
