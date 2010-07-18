@@ -12,9 +12,11 @@
     <script type="text/javascript" src="/js/jquery.hint.js"></script>
     <script type="text/javascript" src="/js/jquery.jeditable.mini.js"></script>
     <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+	<script type="text/javascript" src="/js/selectToUISlider.jQuery.js"></script>
 	<script type="text/javascript" src="/js/common.js"></script>
     <script type="text/javascript" src="controller.js"></script>
     <link type="text/css" href="/css/ui-lightness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />	
+    <link type="text/css" href="/css/ui.slider.extras.css" rel="stylesheet"></link>
     <link type="text/css" href="/css/styles.css" rel="stylesheet"></link>
     <link type="text/css" href="styles.css" rel="stylesheet"></link>
     <title>Common Census Need</title>
@@ -44,6 +46,39 @@
 			<div><label for="title">Title:</label><input id="title" name="title"></div>
 			<div><label for="body">Body:</label><textarea rows="5" cols="80" id="body" name="body"></textarea></div>
 			<button id="addComment">Add Comment</button>
+			</fieldset>
+		</form>
+	</div>
+	<div id="needProfileDialog" style="display:none" title="Describe your need">
+		<form>
+			<fieldset>
+				<div id="sliderContainer">
+					<label for="needType">What kind of need is this?</label>
+					<select id="needType" name="needType">
+						<option value="physiological">Physiological</option>
+						<option value="safety">Safety</option>
+						<option value="loveBelonging">Love / Belonging</option>
+						<option value="selfEsteem">Self Esteem</option>
+						<option value="selfActualization">Self Actualization</option>
+						<option value="peakExperience">Peak Experience</option>
+					</select>
+				</div>
+				<div id="sliderContainer">
+					<label for="metLevel">How well is this need met in your life?</label>
+					<select id="metLevel" name="metLevel">
+						<option value="unmet">Unmet</option>
+						<option value="met">Met</option>
+						<option value="wellMet">Well met</option>
+					</select>
+				</div>
+				<div id="sliderContainer">
+					<label for="metTime">How immediate is this need?</label>
+					<select id="metTime" name="metTime">
+						<option value="now">Right away</option>
+						<option value="months">Soon (6 - 12 months)</option>
+						<option value="years">No hurry (could be years)</option>
+					</select>
+				</div>
 			</fieldset>
 		</form>
 	</div>

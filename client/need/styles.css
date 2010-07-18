@@ -2,12 +2,6 @@ h2 {
 	margin:0;
 }
 
-label {
-	display:inline-block;
-	width:20%;
-	margin:1em;
-}
-
 #stats {
 	font-size:0.8em;
 	margin-top:1em;
@@ -30,7 +24,7 @@ fieldset {
 div.comment {
 	margin:1em;
 	border:1px solid #aaa;
-	padding:1em;
+	padding:1em;metLevelContainer
 }
 
 div.comment em {
@@ -49,3 +43,27 @@ div.comment em {
 	-webkit-border-radius:4px;
 	font-size:1em;
 }
+
+.dialog fieldset {
+	margin:1em;
+}
+
+.ui-dialog label {
+	width:100%;
+}
+
+#sliderContainer {
+	/*position:relative;*/
+	height:5em;
+}
+
+#sliderContainer .ui-slider {
+	/*width:18em;
+	position:absolute;
+	left:17em;
+	top:1em;*/
+	margin:0.5em 5em;
+	
+}
+
+.ui-slider span.ui-slider-label { white-space: nowrap; }

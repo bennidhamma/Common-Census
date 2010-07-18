@@ -2,7 +2,7 @@
 
 body, .ui-widget-content, button, input,textarea {
 	font-family:Cantarell, Verdana, Arial;
-	font-size:1.1em;
+	font-size:1.05em;
 }
 
 #main {
@@ -82,4 +82,11 @@ ol#wholeList li:hover a.remove {
 	margin-left:1em;
 	font-style:normal;
 	white-space:nowrap;
+}
+
+label {
+	vertical-align:top;
+	width:15em;
+	margin-right:2em;
+	display:inline-block;
 }

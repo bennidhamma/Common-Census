@@ -63,6 +63,7 @@ function updateCount()
 
 function setupCommentForm()
 {	
+	setupProfileDialog();
 	var haveNeed = $.grep( profile.whole.parts, function(p) { return p.canonical == part.canonical } ).length;
 	if( haveNeed )
 	{
@@ -72,6 +73,7 @@ function setupCommentForm()
 	{
 		showDoesNotHaveNeed();
 	}
+	
 	$('#commentForm').show().submit(function() {		
 		return false;
 	});
@@ -112,6 +114,25 @@ function setupCommentForm()
 		});
 		return false;
 	});
+}
+
+function setupProfileDialog()
+{
+	$('#needProfileDialog').dialog({
+		width:900
+	});
+	$('select#needType').selectToUISlider({
+		labels:3,
+		labelSrc: 'text', 
+	}).hide();
+	$('select#metLevel').selectToUISlider({
+		labels:3,
+		labelSrc: 'text', 
+	}).hide();
+	$('select#metTime').selectToUISlider({
+		labels:2,
+		labelSrc: 'text', 
+	}).hide();
 }
 
 function showHaveNeed()

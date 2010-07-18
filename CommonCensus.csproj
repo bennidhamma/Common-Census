@@ -71,6 +71,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Classes\Comment.cs" />
+    <Compile Include="Classes\NeedProfile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
